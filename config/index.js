@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs';
 
 const config = {
   projectName: 'miaoxing',
@@ -11,7 +12,11 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: [],
+  plugins: [
+    // TODO 使用包名引入 ts 源码提示 index.ts:1 Cannot use import statement outside a module
+    //'taro-plugin-miaoxing',
+    fs.realpathSync('../packages/taro-plugin-miaoxing/index.ts'),
+  ],
   defineConstants: {
   },
   copy: {

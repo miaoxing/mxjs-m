@@ -1,8 +1,7 @@
+import pages from './config/pages.json';
+
 export default {
-  pages: [
-    'pages/index/index',
-    'pages/articles/index',
-  ],
+  pages,
   window: {
     backgroundTextStyle: 'light',
     navigationBarBackgroundColor: '#fff',

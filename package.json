@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "description": "",
+  "workspaces": [
+    "../packages/taro-plugin-miaoxing"
+  ],
   "templateInfo": {
     "name": "default",
     "typescript": false,
@@ -41,7 +44,8 @@
     "@tarojs/runtime": "3.2.9",
     "@tarojs/taro": "3.2.9",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "taro-plugin-miaoxing": "^0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
