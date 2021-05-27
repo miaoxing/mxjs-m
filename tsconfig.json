@@ -21,7 +21,15 @@
     "typeRoots": [
       "node_modules/@types",
       "global.d.ts"
-    ]
+    ],
+    "paths": {
+      "@/components/*": [
+        "./src/components/*"
+      ],
+      "@/config": [
+        "./src/config"
+      ]
+    }
   },
   "exclude": [
     "node_modules",
