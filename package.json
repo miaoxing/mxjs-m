@@ -4,6 +4,8 @@
   "private": true,
   "description": "",
   "workspaces": [
+    "../packages/miaoxing",
+    "../packages/mxjs-taro",
     "../packages/taro-plugin-miaoxing"
   ],
   "templateInfo": {
@@ -43,6 +45,8 @@
     "@tarojs/react": "3.2.9",
     "@tarojs/runtime": "3.2.9",
     "@tarojs/taro": "3.2.9",
+    "@mxjs/taro": "^0.1.0",
+    "miaoxing": "^0.2.5",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "taro-plugin-miaoxing": "^0.1.0"

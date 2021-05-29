@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import '@mxjs/taro';
 import './app.scss'
 
 class App extends Component {
