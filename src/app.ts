@@ -1,10 +1,11 @@
-import { Component } from 'react'
-import '@mxjs/taro';
+import {Component} from 'react'
+import {setApiUrl} from '@mxjs/taro';
+import config from '@/config';
 import './app.scss'
 
 class App extends Component {
-  componentDidMount () {
-
+  componentDidMount() {
+    setApiUrl(config.apiUrl);
   }
 
   componentDidShow () {}
