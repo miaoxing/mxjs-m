@@ -1,7 +1,8 @@
 import {Component} from 'react'
 import {setApiUrl} from '@mxjs/taro';
 import config from '@/config';
-import './app.scss'
+import './app.scss';
+import 'fower-preset-miaoxing';
 
 class App extends Component {
   componentDidMount() {
