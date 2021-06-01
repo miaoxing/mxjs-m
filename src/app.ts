@@ -1,22 +1,24 @@
 import {Component} from 'react'
-import {setApiUrl} from '@mxjs/taro';
-import config from '@/config';
 import './app.scss';
-import 'fower-preset-miaoxing';
+import bootstrap from './bootstrap';
+
+bootstrap();
 
 class App extends Component {
   componentDidMount() {
-    setApiUrl(config.apiUrl);
   }
 
-  componentDidShow () {}
+  componentDidShow() {
+  }
 
-  componentDidHide () {}
+  componentDidHide() {
+  }
 
-  componentDidCatchError () {}
+  componentDidCatchError() {
+  }
 
   // this.props.children 是将要会渲染的页面
-  render () {
+  render() {
     return this.props.children
   }
 }
