@@ -47,6 +47,13 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
+    },
+    webpackChain(chain) {
+      const modulesPath = path.resolve(__dirname, '../node_modules');
+      chain.resolve.alias
+        .set('react', modulesPath + '/react')
+        .set('@fower/taro', modulesPath  + '/@fower/taro')
+        .set('@fower/core', modulesPath + '/@fower/core');
     }
   },
   h5: {
