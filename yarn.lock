@@ -1296,6 +1296,149 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fower/atom@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/atom/download/@fower/atom-1.17.0.tgz#74fba936d68455c9eb76c09d2dd69d8d8d754123"
+  integrity sha1-dPupNtaEVcnrdsCdLdadjY11QSM=
+  dependencies:
+    string-hash "^1.1.3"
+
+"@fower/color-helper@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/color-helper/download/@fower/color-helper-1.17.0.tgz#086402f34873547f667474d95c6da4c660a2004b"
+  integrity sha1-CGQC80hzVH9mdHTZXG2kxmCiAEs=
+
+"@fower/colors@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/colors/download/@fower/colors-1.17.0.tgz#db9b51c51f544687c83be67c0cf403f8c771cee6"
+  integrity sha1-25tRxR9URofIO+Z8DPQD+MdxzuY=
+  dependencies:
+    "@fower/types" "^1.17.0"
+
+"@fower/core@^1.16.0", "@fower/core@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/core/download/@fower/core-1.17.0.tgz#ef56981c77d1fec1ae8da37c21bf8e9b772df3bc"
+  integrity sha1-71aYHHfR/sGujaN8Ib+Om3ct87w=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/css-object-processor" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/sheet" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+"@fower/css-object-processor@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/css-object-processor/download/@fower/css-object-processor-1.17.0.tgz#e0d95007f5ad1eb3b68d0449ed1e517dda921760"
+  integrity sha1-4NlQB/WtHrO2jQRJ7R5RfdqSF2A=
+  dependencies:
+    "@fower/utils" "^1.17.0"
+    csstype "^3.0.7"
+
+"@fower/parser@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/parser/download/@fower/parser-1.17.0.tgz#3a555cee03372d8850b9eee5a7fa401e78ff818a"
+  integrity sha1-OlVc7gM3LYhQue7lp/pAHnj/gYo=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/css-object-processor" "^1.17.0"
+    "@fower/sheet" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+"@fower/preset-taro@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/preset-taro/download/@fower/preset-taro-1.17.0.tgz#76806c91824c96643f8a449f6687a02c8ec3d2d1"
+  integrity sha1-doBskYJMlmQ/ikSfZoegLI7D0tE=
+  dependencies:
+    "@fower/colors" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    fower-plugin-background "^1.17.0"
+    fower-plugin-border "^1.17.0"
+    fower-plugin-box-alignment "^1.17.0"
+    fower-plugin-box-sizing "^1.17.0"
+    fower-plugin-color "^1.17.0"
+    fower-plugin-cursor "^1.17.0"
+    fower-plugin-debug "^1.17.0"
+    fower-plugin-display "^1.17.0"
+    fower-plugin-ellipsis "^1.17.0"
+    fower-plugin-flexbox "^1.17.0"
+    fower-plugin-font-family "^1.17.0"
+    fower-plugin-font-style "^1.17.0"
+    fower-plugin-font-weight "^1.17.0"
+    fower-plugin-grid "^1.17.0"
+    fower-plugin-layout "^1.17.0"
+    fower-plugin-line-height "^1.17.0"
+    fower-plugin-margin "^1.17.0"
+    fower-plugin-opacity "^1.17.0"
+    fower-plugin-outline "^1.17.0"
+    fower-plugin-overflow "^1.17.0"
+    fower-plugin-padding "^1.17.0"
+    fower-plugin-position "^1.17.0"
+    fower-plugin-rounded "^1.17.0"
+    fower-plugin-shadow "^1.17.0"
+    fower-plugin-size "^1.17.0"
+    fower-plugin-space "^1.17.0"
+    fower-plugin-text-align "^1.17.0"
+    fower-plugin-text-decoration "^1.17.0"
+    fower-plugin-text-overflow "^1.17.0"
+    fower-plugin-text-size "^1.17.0"
+    fower-plugin-text-transform "^1.17.0"
+    fower-plugin-visibility "^1.17.0"
+    fower-plugin-z-index "^1.17.0"
+
+"@fower/sheet@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/sheet/download/@fower/sheet-1.17.0.tgz#4edc32c38269f2b89f8e64c5f50f5507a900622d"
+  integrity sha1-Ttwyw4Jp8rifjmTF9Q9VB6kAYi0=
+  dependencies:
+    "@fower/utils" "^1.17.0"
+
+"@fower/store@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/store/download/@fower/store-1.17.0.tgz#b4c3cf02d8e4f65db6b9c5466b97fb0b236bc733"
+  integrity sha1-tMPPAtjk9l22ucVGa5f7CyNrxzM=
+  dependencies:
+    "@fower/types" "^1.17.0"
+    deepmerge "^4.2.2"
+
+"@fower/styled@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/styled/download/@fower/styled-1.17.0.tgz#c4751dcaf0c3f2d74dc8c4d625fd14c947d81ec3"
+  integrity sha1-xHUdyvDD8tdNyMTWJf0UyUfYHsM=
+  dependencies:
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+    hoist-non-react-statics "^3.3.2"
+
+"@fower/taro@^1.16.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/taro/download/@fower/taro-1.17.0.tgz#ea9d28d0e16031331a9e4a45b9f319147a65fa33"
+  integrity sha1-6p0o0OFgMTMankpFufMZFHpl+jM=
+  dependencies:
+    "@fower/core" "^1.17.0"
+    "@fower/preset-taro" "^1.17.0"
+    "@fower/styled" "^1.17.0"
+
+"@fower/types@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/types/download/@fower/types-1.17.0.tgz#05b371d08c3410e9700954ff7e669002e4a9d64a"
+  integrity sha1-BbNx0Iw0EOlwCVT/fmaQAuSp1ko=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    csstype "^3.0.7"
+
+"@fower/utils@^1.17.0":
+  version "1.17.0"
+  resolved "https://registry.nlark.com/@fower/utils/download/@fower/utils-1.17.0.tgz#52c1bbbb723327dafa03d40b45e064ebbfe16b64"
+  integrity sha1-UsG7u3IzJ9r6A9QLReBk67/ha2Q=
+  dependencies:
+    "@types/string-hash" "^1.1.1"
+    string-hash "^1.1.3"
+
 "@hapi/address@^4.0.1":
   version "4.1.0"
   resolved "https://registry.nlark.com/@hapi/address/download/@hapi/address-4.1.0.tgz#d60c5c0d930e77456fdcde2598e77302e2955e1d"
@@ -1813,6 +1956,21 @@
   dependencies:
     "@stencil/core" "2.4.0"
     "@tarojs/taro" "3.2.9"
+    better-scroll "^1.14.1"
+    classnames "^2.2.5"
+    intersection-observer "^0.7.0"
+    omit.js "^1.0.0"
+    resolve-pathname "^3.0.0"
+    swiper "4.4.2"
+    weui "^1.1.2"
+
+"@tarojs/components@^3.2.10":
+  version "3.2.10"
+  resolved "https://registry.nlark.com/@tarojs/components/download/@tarojs/components-3.2.10.tgz?cache=0&sync_timestamp=1622535868035&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40tarojs%2Fcomponents%2Fdownload%2F%40tarojs%2Fcomponents-3.2.10.tgz#185923d3a0ba3dce8e73af4e3814cc0be5e48ce6"
+  integrity sha1-GFkj06C6Pc6Oc69OOBTMC+XkjOY=
+  dependencies:
+    "@stencil/core" "2.4.0"
+    "@tarojs/taro" "3.2.10"
     better-scroll "^1.14.1"
     classnames "^2.2.5"
     intersection-observer "^0.7.0"
@@ -2420,6 +2578,11 @@
   resolved "https://registry.nlark.com/@types/stack-utils/download/@types/stack-utils-2.0.0.tgz#7036640b4e21cc2f259ae826ce843d277dad8cff"
   integrity sha1-cDZkC04hzC8lmugmzoQ9J32tjP8=
 
+"@types/string-hash@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.nlark.com/@types/string-hash/download/@types/string-hash-1.1.1.tgz?cache=0&sync_timestamp=1621243969462&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fstring-hash%2Fdownload%2F%40types%2Fstring-hash-1.1.1.tgz#4c336e61d1e13ce2d3efaaa5910005fd080e106b"
+  integrity sha1-TDNuYdHhPOLT76qlkQAF/QgOEGs=
+
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2":
   version "2.0.3"
   resolved "https://registry.nlark.com/@types/unist/download/@types/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
@@ -2891,6 +3054,13 @@ anymatch@^3.0.3, anymatch@~3.1.1:
   dependencies:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
+
+append-url@^1.0.13:
+  version "1.0.13"
+  resolved "https://registry.nlark.com/append-url/download/append-url-1.0.13.tgz#11c615ce98489cd386a01844c3302cb6c557fc8e"
+  integrity sha1-EcYVzphInNOGoBhEwzAstsVX/I4=
+  dependencies:
+    jquery-param "^1.0.2"
 
 aproba@^1.1.1:
   version "1.2.0"
@@ -4752,7 +4922,7 @@ cssstyle@^2.0.0, cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^3.0.2:
+csstype@^3.0.2, csstype@^3.0.7:
   version "3.0.8"
   resolved "https://registry.nlark.com/csstype/download/csstype-3.0.8.tgz?cache=0&sync_timestamp=1618818466657&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcsstype%2Fdownload%2Fcsstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
   integrity sha1-0iZqeScp+yJ80hb7Vy9Dco4a00A=
@@ -6407,6 +6577,349 @@ forwarded@~0.1.2:
   resolved "https://registry.npm.taobao.org/forwarded/download/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
   integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
 
+fower-plugin-background@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-background/download/fower-plugin-background-1.17.0.tgz#a8780614dc3c912da96f6e888d80b8447b0d55a7"
+  integrity sha1-qHgGFNw8kS2pb26IjYC4RHsNVac=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-border@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-border/download/fower-plugin-border-1.17.0.tgz#123e43a031d95db1f88744cbc9b1dfaf70073945"
+  integrity sha1-Ej5DoDHZXbH4h0TLybHfr3AHOUU=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/color-helper" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-box-alignment@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-box-alignment/download/fower-plugin-box-alignment-1.17.0.tgz#2059ae56b8183f339e08de6eb8035208b33ebf74"
+  integrity sha1-IFmuVrgYPzOeCN5uuANSCLM+v3Q=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-box-sizing@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-box-sizing/download/fower-plugin-box-sizing-1.17.0.tgz#ad68e11c1d2da0f32be00daec28f238640bf08bc"
+  integrity sha1-rWjhHB0toPMr4A2uwo8jhkC/CLw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+    csstype "^3.0.7"
+
+fower-plugin-color@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-color/download/fower-plugin-color-1.17.0.tgz#2e66c39d693455d715553f304d228f12164a189c"
+  integrity sha1-LmbDnWk0VdcVVT8wTSKPEhZKGJw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/color-helper" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-cursor@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-cursor/download/fower-plugin-cursor-1.17.0.tgz#fe1575275b2e2dd77d6f30285b8eb47eead1f483"
+  integrity sha1-/hV1J1suLdd9bzAoW460furR9IM=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-debug@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-debug/download/fower-plugin-debug-1.17.0.tgz#6f089147b0ee540d9cebfca34797efc5e7b2ec4d"
+  integrity sha1-bwiRR7DuVA2c6/yjR5fvxeey7E0=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-display@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-display/download/fower-plugin-display-1.17.0.tgz#938f013fe1dc5bd9f85eabddc1e71a54442cebe7"
+  integrity sha1-k48BP+HcW9n4XqvdwecaVEQs6+c=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-ellipsis@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-ellipsis/download/fower-plugin-ellipsis-1.17.0.tgz#f3ffedd9bd20cccffd933dc80d2df9ca5e982a70"
+  integrity sha1-8//t2b0gzM/9kz3IDS35yl6YKnA=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-flexbox@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-flexbox/download/fower-plugin-flexbox-1.17.0.tgz#2395a4074fc77f650fcb5686735216cc97fb58d3"
+  integrity sha1-I5WkB0/Hf2UPy1aGc1IWzJf7WNM=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-font-family@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-font-family/download/fower-plugin-font-family-1.17.0.tgz#0d4a1cdb5c02943ce0d2c179b29786c38ad935c0"
+  integrity sha1-DUoc21wClDzg0sF5speGw4rZNcA=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-font-style@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-font-style/download/fower-plugin-font-style-1.17.0.tgz#2282885436ab24d1e12953418d71ff6cc2f2b8fc"
+  integrity sha1-IoKIVDarJNHhKVNBjXH/bMLyuPw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-font-weight@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-font-weight/download/fower-plugin-font-weight-1.17.0.tgz#6e8c0691ef4e3cc3dc9d9225d8311c96b23bb224"
+  integrity sha1-bowGke9OPMPcnZIl2DEclrI7siQ=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-grid@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-grid/download/fower-plugin-grid-1.17.0.tgz#89614c4092d4018518bc5641a9306a417cdc047a"
+  integrity sha1-iWFMQJLUAYUYvFZBqTBqQXzcBHo=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-layout@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-layout/download/fower-plugin-layout-1.17.0.tgz#aa7158a295ce6f733f13e790b4324dabfe847c97"
+  integrity sha1-qnFYopXOb3M/E+eQtDJNq/6EfJc=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-line-height@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-line-height/download/fower-plugin-line-height-1.17.0.tgz#1fc4884ce88dc3dd8f83b0f75310950368e41155"
+  integrity sha1-H8SITOiNw92Pg7D3UxCVA2jkEVU=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-margin@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-margin/download/fower-plugin-margin-1.17.0.tgz#d360b4bc91ef18a96bb9d0458869585b4ee1265c"
+  integrity sha1-02C0vJHvGKlrudBFiGlYW07hJlw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-opacity@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-opacity/download/fower-plugin-opacity-1.17.0.tgz#2fe87a3f080077e000f5daca137c308adff036ab"
+  integrity sha1-L+h6PwgAd+AA9drKE3wwit/wNqs=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-outline@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-outline/download/fower-plugin-outline-1.17.0.tgz#837229edb9108d190ca616dd83043cce0b24012c"
+  integrity sha1-g3Ip7bkQjRkMphbdgwQ8zgskASw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-overflow@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-overflow/download/fower-plugin-overflow-1.17.0.tgz#90e6f3cf682b4efc6e7b4e289cddd249d80b2ff5"
+  integrity sha1-kObzz2grTvxue04onN3SSdgLL/U=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-padding@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-padding/download/fower-plugin-padding-1.17.0.tgz#799d70af5080e4216d995d7ad49a927c9993497c"
+  integrity sha1-eZ1wr1CA5CFtmV161JqSfJmTSXw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-position@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-position/download/fower-plugin-position-1.17.0.tgz#ab0de852961bba2985da2ee67e9429548ba9933a"
+  integrity sha1-qw3oUpYbuimF2i7mfpQpVIupkzo=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-rounded@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-rounded/download/fower-plugin-rounded-1.17.0.tgz#ae60136c6a5ca0d5fc9c0511a9ac02a3e441f4b0"
+  integrity sha1-rmATbGpcoNX8nAURqawCo+RB9LA=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-shadow@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-shadow/download/fower-plugin-shadow-1.17.0.tgz#11b101a9aa9f505f357b7d6215e066867a838c75"
+  integrity sha1-EbEBqaqfUF81e31iFeBmhnqDjHU=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-size@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-size/download/fower-plugin-size-1.17.0.tgz#b8e8733ac161d0d7b6faba46bb24b5586127e435"
+  integrity sha1-uOhzOsFh0Ne2+rpGuyS1WGEn5DU=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-space@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-space/download/fower-plugin-space-1.17.0.tgz#f5812b21dd9c7a34b3272007c9d049ea5e7e3ad6"
+  integrity sha1-9YErId2cejSzJyAHydBJ6l5+OtY=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-text-align@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-text-align/download/fower-plugin-text-align-1.17.0.tgz#f9915c979dc5ff7ba775421bd09045e04cfbee55"
+  integrity sha1-+ZFcl53F/3undUIb0JBF4Ez77lU=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-text-decoration@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-text-decoration/download/fower-plugin-text-decoration-1.17.0.tgz#fb0412940b167bd363a0d0df7a7d06bd91f0235f"
+  integrity sha1-+wQSlAsWe9NjoNDfen0GvZHwI18=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-text-overflow@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-text-overflow/download/fower-plugin-text-overflow-1.17.0.tgz#b55c80ed8b1877cbaf2188f80d32a4d186a73a1c"
+  integrity sha1-tVyA7YsYd8uvIYj4DTKk0YanOhw=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-text-size@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-text-size/download/fower-plugin-text-size-1.17.0.tgz#9f18cd04347babcf09bf71e46ff6b1733c92dcbb"
+  integrity sha1-nxjNBDR7q88Jv3Hkb/axczyS3Ls=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/store" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-text-transform@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-text-transform/download/fower-plugin-text-transform-1.17.0.tgz#7219308c2b8bc4087d9d2ecec1b0b09cc44a2658"
+  integrity sha1-chkwjCuLxAh9nS7OwbCwnMRKJlg=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
+fower-plugin-visibility@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-visibility/download/fower-plugin-visibility-1.17.0.tgz#41791ac854d7580a1aa7662638ff11577ada1250"
+  integrity sha1-QXkayFTXWAoap2YmOP8RV3raElA=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/core" "^1.17.0"
+    "@fower/parser" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+    csstype "^3.0.7"
+
+fower-plugin-z-index@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.nlark.com/fower-plugin-z-index/download/fower-plugin-z-index-1.17.0.tgz#1474cc659c8f3506912e9f3f10b7fc7dfa581704"
+  integrity sha1-FHTMZZyPNQaRLp8/ELf8ffpYFwQ=
+  dependencies:
+    "@fower/atom" "^1.17.0"
+    "@fower/types" "^1.17.0"
+    "@fower/utils" "^1.17.0"
+
 fragment-cache@^0.2.1:
   version "0.2.1"
   resolved "https://registry.nlark.com/fragment-cache/download/fragment-cache-0.2.1.tgz#4290fad27f13e89be7f33799c6bc5a0abfff0d19"
@@ -6927,7 +7440,7 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1:
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.1, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
@@ -8316,6 +8829,11 @@ jetifier@^1.6.6:
   version "1.6.8"
   resolved "https://registry.nlark.com/jetifier/download/jetifier-1.6.8.tgz#e88068697875cbda98c32472902c4d3756247798"
   integrity sha1-6IBoaXh1y9qYwyRykCxNN1Ykd5g=
+
+jquery-param@^1.0.2:
+  version "1.1.7"
+  resolved "https://registry.nlark.com/jquery-param/download/jquery-param-1.1.7.tgz#9257b5b338817204176a329f81bfb1a8906d7536"
+  integrity sha1-kle1sziBcgQXajKfgb+xqJBtdTY=
 
 js-base64@^2.1.9:
   version "2.6.4"
@@ -10819,7 +11337,7 @@ query-string@^4.1.0:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.1.0, query-string@^6.13.6, query-string@^6.13.8:
+query-string@^6.1.0, query-string@^6.12.1, query-string@^6.13.6, query-string@^6.13.8:
   version "6.14.1"
   resolved "https://registry.npm.taobao.org/query-string/download/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
   integrity sha1-esLcpG2n8wlEm6D4ax/SglWwyGo=
@@ -12396,6 +12914,11 @@ strict-uri-encode@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
   integrity sha1-ucczDHBChi9rFC3CdLvMWGbONUY=
+
+string-hash@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.nlark.com/string-hash/download/string-hash-1.1.3.tgz?cache=0&sync_timestamp=1618847134046&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fstring-hash%2Fdownload%2Fstring-hash-1.1.3.tgz#e8aafc0ac1855b4666929ed7dd1275df5d6c811b"
+  integrity sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs=
 
 string-length@^4.0.1:
   version "4.0.2"

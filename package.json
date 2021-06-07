@@ -6,6 +6,7 @@
   "workspaces": [
     "../packages/fower-preset-miaoxing",
     "../packages/miaoxing",
+    "../packages/mxjs-border",
     "../packages/mxjs-taro",
     "../packages/taro-plugin-miaoxing"
   ],
