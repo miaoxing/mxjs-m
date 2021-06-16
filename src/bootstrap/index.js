@@ -2,6 +2,7 @@ import config from '@/config';
 import {setApiUrl, setOnBeforeHttp} from '@mxjs/taro';
 import Taro from '@tarojs/taro';
 import $ from 'miaoxing';
+import '@/components/Page';
 
 // bootstrap: 引入自定义的样式主题
 import 'fower-preset-miaoxing';
