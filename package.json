@@ -10,6 +10,9 @@
     "../packages/mxjs-taro",
     "../packages/taro-plugin-miaoxing"
   ],
+  "engines": {
+    "node": ">=12.10.0"
+  },
   "templateInfo": {
     "name": "default",
     "typescript": false,
