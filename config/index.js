@@ -48,6 +48,9 @@ const config = {
         }
       }
     },
+    miniCssExtractPluginOption: {
+      ignoreOrder: true,
+    },
     webpackChain(chain) {
       const modulesPath = path.resolve(__dirname, '../node_modules');
       chain.resolve.alias
