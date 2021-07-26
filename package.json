@@ -49,6 +49,7 @@
     "@fower/taro": "^1.16.0",
     "@mxjs/taro": "^0.1.0",
     "@tarojs/components": "3.3.1",
+    "@tarojs/plugin-html": "^3.3.1",
     "@tarojs/react": "3.3.1",
     "@tarojs/runtime": "3.3.1",
     "@tarojs/taro": "3.3.1",

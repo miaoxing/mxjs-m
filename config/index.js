@@ -13,6 +13,7 @@ const config = {
   sourceRoot: 'src',
   outputRoot: 'dist',
   plugins: [
+    '@tarojs/plugin-html',
     // TODO 使用包名引入 ts 源码提示 index.ts:1 Cannot use import statement outside a module
     //'taro-plugin-miaoxing',
     fs.realpathSync('../packages/taro-plugin-miaoxing/index.ts'),

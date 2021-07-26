@@ -1828,6 +1828,13 @@
     webpack-format-messages "^2.0.5"
     yauzl "2.10.0"
 
+"@tarojs/plugin-html@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.nlark.com/@tarojs/plugin-html/download/@tarojs/plugin-html-3.3.1.tgz?cache=0&sync_timestamp=1626924412511&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40tarojs%2Fplugin-html%2Fdownload%2F%40tarojs%2Fplugin-html-3.3.1.tgz#fdd51b9c3a62299a0a074ae69cdb491c2a59f8ae"
+  integrity sha1-/dUbnDpiKZoKB0rmnNtJHCpZ+K4=
+  dependencies:
+    "@tarojs/shared" "3.3.1"
+
 "@tarojs/plugin-platform-alipay@3.3.1":
   version "3.3.1"
   resolved "https://registry.nlark.com/@tarojs/plugin-platform-alipay/download/@tarojs/plugin-platform-alipay-3.3.1.tgz?cache=0&sync_timestamp=1626924109207&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40tarojs%2Fplugin-platform-alipay%2Fdownload%2F%40tarojs%2Fplugin-platform-alipay-3.3.1.tgz#00a0920550d471d7fec3b6bfdf286daf7ae9247a"
