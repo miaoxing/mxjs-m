@@ -61,6 +61,7 @@ const config = {
     }
   },
   h5: {
+    enableExtract: true,
     publicPath: '/',
     staticDirectory: 'static',
     postcss: {
