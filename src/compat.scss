@@ -8,3 +8,10 @@ taro-button-core {
     margin-top: 0;
   }
 }
+
+taro-swiper-item-core {
+  taro-image-core {
+    // 图片居中显示
+    text-align: center;
+  }
+}
