@@ -1,0 +1,10 @@
+// @internal 考虑移到独立模块
+
+taro-button-core {
+  // 覆盖默认 100%
+  width: initial;
+
+  & + & {
+    margin-top: 0;
+  }
+}
