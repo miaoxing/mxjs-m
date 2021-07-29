@@ -30,13 +30,12 @@
       "outputPath": ""
     },
     "enableEngineNative": false,
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
+    "useIsolateContext": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": false
+    "minifyWXSS": false,
+    "showES6CompileOption": false
   },
   "compileType": "miniprogram",
   "simulatorType": "wechat",
