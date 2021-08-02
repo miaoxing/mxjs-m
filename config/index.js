@@ -77,7 +77,10 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
-    }
+    },
+    miniCssExtractPluginOption: {
+      ignoreOrder: true,
+    },
   },
   alias: {
     '@/components': path.resolve(__dirname, '..', 'src/components'),
