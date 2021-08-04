@@ -81,6 +81,9 @@ const config = {
     miniCssExtractPluginOption: {
       ignoreOrder: true,
     },
+    router: {
+      mode: 'browser',
+    }
   },
   alias: {
     '@/components': path.resolve(__dirname, '..', 'src/components'),
