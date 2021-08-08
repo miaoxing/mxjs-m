@@ -69,6 +69,13 @@ const loginWechatOa = async () => {
       Taro.redirectTo({
         url: appendUrl(window.location.pathname, params),
       });
+      return;
+    }
+
+    if (ret.retryUrl) {
+      window.location = ret.retryUrl;
+    } else {
+      $.alert(ret.message);
     }
     return;
   }
