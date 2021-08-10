@@ -83,6 +83,15 @@ const config = {
     },
     router: {
       mode: 'browser',
+    },
+    webpackChain(chain) {
+      chain.module
+        .rule('script')
+        .exclude
+        // 移除原来的规则，允许编译 node_modules 里的模块，解决 monorepo 模块编译失败
+        .clear()
+        .add(filename => /@tarojs\/components/.test(filename))
+        .end();
     }
   },
   alias: {
