@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`bootstrap login by mp 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`bootstrap login by mp 2`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "code": "test-code",
+      },
+      "method": "post",
+      "skipBeforeEvent": true,
+      "url": "/m-api/wechat-mp/login",
+    },
+  ],
+]
+`;
+
+exports[`bootstrap login by mp 3`] = `
+Array [
+  Array [
+    "token",
+    "test-token",
+  ],
+]
+`;
+
+exports[`bootstrap login by mp: HTTP fail 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`bootstrap login by mp: HTTP fail 2`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "code": "test-code",
+      },
+      "method": "post",
+      "skipBeforeEvent": true,
+      "url": "/m-api/wechat-mp/login",
+    },
+  ],
+]
+`;
+
+exports[`bootstrap login by mp: HTTP fail 3`] = `Array []`;
+
+exports[`bootstrap login by mp: Taro login fail 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`bootstrap login by mp: Taro login fail 2`] = `
+Array [
+  Array [
+    "微信登录失败：登录失败",
+  ],
+]
+`;
