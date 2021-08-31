@@ -28,11 +28,12 @@ describe('bootstrap', () => {
       ret: Ret.suc({token: 'test-token'}),
     });
 
-    const promise = createPromise();
-    Taro.setStorageSync = jest.fn().mockImplementationOnce(() => promise.resolve());
+    Taro.setStorageSync = jest.fn();
 
     await bootstrap();
-    await promise;
+    await waitFor(() => {
+      expect(Taro.setStorageSync).toBeCalled();
+    });
 
     expect(Taro.login.mock.calls).toMatchSnapshot();
     expect($.http.mock.calls).toMatchSnapshot();
