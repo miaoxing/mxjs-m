@@ -44,6 +44,13 @@
     "ios >= 8"
   ],
   "author": "",
+  "jest": {
+    "preset": "jest-preset-miaoxing",
+    "moduleNameMapper": {
+      "@/config": "<rootDir>/src/config",
+      "@/components/(.*)": "<rootDir>/src/components/$1"
+    }
+  },
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@fower/taro": "^1.16.0",
