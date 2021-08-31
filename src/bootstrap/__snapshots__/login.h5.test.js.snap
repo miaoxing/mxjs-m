@@ -97,3 +97,19 @@ exports[`login h5 suc 5`] = `
   ],
 }
 `;
+
+exports[`login h5 token exists 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "token",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": "exists",
+    },
+  ],
+}
+`;

@@ -13,6 +13,9 @@ describe('login h5', () => {
       pathname: '',
       href: '',
     };
+
+    let userAgent = jest.spyOn(window.navigator, 'userAgent', 'get');
+    userAgent.mockReturnValue('MicroMessenger');
   });
 
   afterEach(() => {
@@ -25,9 +28,6 @@ describe('login h5', () => {
     window.location.href = 'https://test.com/path?a=b';
     window.location.search = '?a=b';
     window.location.pathname = '/path';
-
-    let userAgent = jest.spyOn(window.navigator, 'userAgent', 'get');
-    userAgent.mockReturnValue('MicroMessenger');
 
     Taro.getStorageSync = jest.fn().mockReturnValue(null);
 
@@ -51,5 +51,13 @@ describe('login h5', () => {
     expect($.http).toMatchSnapshot();
     expect(Taro.setStorageSync).toMatchSnapshot();
     expect(Taro.redirectTo).toMatchSnapshot();
+  });
+
+  test('token exists', async () => {
+    Taro.getStorageSync = jest.fn().mockReturnValue('exists');
+
+    await login();
+
+    expect(Taro.getStorageSync).toMatchSnapshot();
   });
 });
