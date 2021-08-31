@@ -1,73 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`bootstrap login by mp 1`] = `
-Array [
-  Array [],
-]
-`;
-
-exports[`bootstrap login by mp 2`] = `
-Array [
-  Array [
-    Object {
-      "data": Object {
-        "code": "test-code",
-      },
-      "method": "post",
-      "skipBeforeEvent": true,
-      "url": "/m-api/wechat-mp/login",
-    },
-  ],
-]
-`;
-
-exports[`bootstrap login by mp 3`] = `
-Array [
-  Array [
-    "token",
-    "test-token",
-  ],
-]
-`;
-
-exports[`bootstrap login by mp: HTTP fail 1`] = `
-Array [
-  Array [],
-]
-`;
-
-exports[`bootstrap login by mp: HTTP fail 2`] = `
-Array [
-  Array [
-    Object {
-      "data": Object {
-        "code": "test-code",
-      },
-      "method": "post",
-      "skipBeforeEvent": true,
-      "url": "/m-api/wechat-mp/login",
-    },
-  ],
-]
-`;
-
-exports[`bootstrap login by mp: HTTP fail 3`] = `Array []`;
-
-exports[`bootstrap login by mp: Taro login fail 1`] = `
-Array [
-  Array [],
-]
-`;
-
-exports[`bootstrap login by mp: Taro login fail 2`] = `
-Array [
-  Array [
-    "微信登录失败：登录失败",
-  ],
-]
-`;
-
-exports[`bootstrap login by wechat oa 1`] = `
+exports[`login h5 suc 1`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -83,7 +16,7 @@ exports[`bootstrap login by wechat oa 1`] = `
 }
 `;
 
-exports[`bootstrap login by wechat oa 2`] = `
+exports[`login h5 suc 2`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -106,7 +39,7 @@ exports[`bootstrap login by wechat oa 2`] = `
 }
 `;
 
-exports[`bootstrap login by wechat oa 3`] = `
+exports[`login h5 suc 3`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -130,7 +63,7 @@ exports[`bootstrap login by wechat oa 3`] = `
 }
 `;
 
-exports[`bootstrap login by wechat oa 4`] = `
+exports[`login h5 suc 4`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -147,7 +80,7 @@ exports[`bootstrap login by wechat oa 4`] = `
 }
 `;
 
-exports[`bootstrap login by wechat oa 5`] = `
+exports[`login h5 suc 5`] = `
 [MockFunction] {
   "calls": Array [
     Array [

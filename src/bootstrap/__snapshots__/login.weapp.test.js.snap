@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login weapp HTTP fail 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`login weapp HTTP fail 2`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "code": "test-code",
+      },
+      "method": "post",
+      "skipBeforeEvent": true,
+      "url": "/m-api/wechat-mp/login",
+    },
+  ],
+]
+`;
+
+exports[`login weapp HTTP fail 3`] = `
+Array [
+  Array [
+    "HTTP error",
+  ],
+]
+`;
+
+exports[`login weapp Taro.login fail 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`login weapp Taro.login fail 2`] = `
+Array [
+  Array [
+    "微信登录失败：测试登录失败",
+  ],
+]
+`;
+
+exports[`login weapp suc 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`login weapp suc 2`] = `
+Array [
+  Array [
+    Object {
+      "data": Object {
+        "code": "test-code",
+      },
+      "method": "post",
+      "skipBeforeEvent": true,
+      "url": "/m-api/wechat-mp/login",
+    },
+  ],
+]
+`;
+
+exports[`login weapp suc 3`] = `
+Array [
+  Array [
+    "token",
+    "test-token",
+  ],
+]
+`;
