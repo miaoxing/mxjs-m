@@ -66,3 +66,101 @@ Array [
   ],
 ]
 `;
+
+exports[`bootstrap login by wechat oa 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "token",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": null,
+    },
+  ],
+}
+`;
+
+exports[`bootstrap login by wechat oa 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "code",
+    ],
+    Array [
+      "state",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": "test-code",
+    },
+    Object {
+      "type": "return",
+      "value": "test-state",
+    },
+  ],
+}
+`;
+
+exports[`bootstrap login by wechat oa 3`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "code": "test-code",
+          "state": "test-state",
+          "url": "https://test.com/path?a=b",
+        },
+        "method": "post",
+        "url": "/m-api/wechat-oa/login",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
+exports[`bootstrap login by wechat oa 4`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "token",
+      "test-token",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`bootstrap login by wechat oa 5`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "url": "/path?a=b",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
