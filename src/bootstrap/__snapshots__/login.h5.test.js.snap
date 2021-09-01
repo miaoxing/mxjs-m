@@ -1,5 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`login h5 redirect if no token 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "token",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": null,
+    },
+  ],
+}
+`;
+
+exports[`login h5 redirect if no token 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "method": "get",
+        "url": "/m-api/wechat-oa/login?url=https%3A%2F%2Ftest.com%2Fpath%3Fa%3Db",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
 exports[`login h5 suc 1`] = `
 [MockFunction] {
   "calls": Array [

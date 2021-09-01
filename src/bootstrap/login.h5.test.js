@@ -5,6 +5,7 @@ import $, {Ret} from 'miaoxing';
 import {waitFor} from '@testing-library/react';
 
 describe('login h5', () => {
+  process.env.TARO_ENV = 'h5';
   const originalLocation = window.location;
 
   beforeEach(() => {
@@ -59,5 +60,26 @@ describe('login h5', () => {
     await login();
 
     expect(Taro.getStorageSync).toMatchSnapshot();
+  });
+
+  test('redirect if no token', async () => {
+    window.location.href = 'https://test.com/path?a=b';
+
+    Taro.getStorageSync = jest.fn().mockReturnValue(null);
+
+    $.http = jest.fn().mockResolvedValueOnce({
+      ret: Ret.suc({
+        url: 'https://open.weixin.qq.com/?redirect_uri=test',
+      }),
+    });
+
+    await login();
+    await waitFor(() => {
+      expect($.http).toBeCalled();
+    });
+
+    expect(Taro.getStorageSync).toMatchSnapshot();
+    expect($.http).toMatchSnapshot();
+    expect(window.location).toBe('https://open.weixin.qq.com/?redirect_uri=test');
   });
 });
