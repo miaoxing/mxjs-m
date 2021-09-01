@@ -232,34 +232,11 @@ exports[`login h5 suc 2`] = `
 [MockFunction] {
   "calls": Array [
     Array [
-      "code",
-    ],
-    Array [
-      "state",
-    ],
-  ],
-  "results": Array [
-    Object {
-      "type": "return",
-      "value": "test-code",
-    },
-    Object {
-      "type": "return",
-      "value": "test-state",
-    },
-  ],
-}
-`;
-
-exports[`login h5 suc 3`] = `
-[MockFunction] {
-  "calls": Array [
-    Array [
       Object {
         "data": Object {
           "code": "test-code",
           "state": "test-state",
-          "url": "https://test.com/path?a=b",
+          "url": "https://test.com/path?a=b&code=test-code&state=test-state",
         },
         "method": "post",
         "url": "/m-api/wechat-oa/login",
@@ -275,7 +252,7 @@ exports[`login h5 suc 3`] = `
 }
 `;
 
-exports[`login h5 suc 4`] = `
+exports[`login h5 suc 3`] = `
 [MockFunction] {
   "calls": Array [
     Array [
@@ -292,7 +269,7 @@ exports[`login h5 suc 4`] = `
 }
 `;
 
-exports[`login h5 suc 5`] = `
+exports[`login h5 suc 4`] = `
 [MockFunction] {
   "calls": Array [
     Array [

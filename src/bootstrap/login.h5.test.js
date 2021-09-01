@@ -24,16 +24,11 @@ describe('login h5', () => {
   });
 
   test('suc', async () => {
-    process.env.TARO_ENV = 'h5';
-
-    window.location.href = 'https://test.com/path?a=b';
-    window.location.search = '?a=b';
+    window.location.href = 'https://test.com/path?a=b&code=test-code&state=test-state';
+    window.location.search = '?a=b&code=test-code&state=test-state';
     window.location.pathname = '/path';
 
     Taro.getStorageSync = jest.fn().mockReturnValue(null);
-
-    $.req = jest.fn().mockReturnValueOnce('test-code')
-      .mockReturnValueOnce('test-state');
 
     $.http = jest.fn().mockResolvedValueOnce({
       ret: Ret.suc({token: 'test-token'}),
@@ -48,7 +43,6 @@ describe('login h5', () => {
     });
 
     expect(Taro.getStorageSync).toMatchSnapshot();
-    expect($.req).toMatchSnapshot();
     expect($.http).toMatchSnapshot();
     expect(Taro.setStorageSync).toMatchSnapshot();
     expect(Taro.redirectTo).toMatchSnapshot();
