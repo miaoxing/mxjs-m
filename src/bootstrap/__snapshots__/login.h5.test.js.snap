@@ -79,6 +79,69 @@ exports[`login h5 login HTTP fail 4`] = `
 }
 `;
 
+exports[`login h5 login fail retry 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "token",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": null,
+    },
+  ],
+}
+`;
+
+exports[`login h5 login fail retry 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "code",
+    ],
+    Array [
+      "state",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": "test-code",
+    },
+    Object {
+      "type": "return",
+      "value": "test-state",
+    },
+  ],
+}
+`;
+
+exports[`login h5 login fail retry 3`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "code": "test-code",
+          "state": "test-state",
+          "url": "",
+        },
+        "method": "post",
+        "url": "/m-api/wechat-oa/login",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
 exports[`login h5 redirect if has code without state 1`] = `
 [MockFunction] {
   "calls": Array [

@@ -129,4 +129,28 @@ describe('login h5', () => {
     expect($.http).toMatchSnapshot();
     expect($.alert).toMatchSnapshot();
   });
+
+  test('login fail retry', async () => {
+    Taro.getStorageSync = jest.fn().mockReturnValue(null);
+
+    $.req = jest.fn().mockReturnValueOnce('test-code')
+      .mockReturnValueOnce('test-state');
+
+    $.http = jest.fn().mockResolvedValueOnce({
+      ret: Ret.err({
+        message: 'Test Wechat fail',
+        retryUrl: 'test-retry',
+      }),
+    });
+
+    await login();
+    await waitFor(() => {
+      expect($.http).toBeCalled();
+    });
+
+    expect(Taro.getStorageSync).toMatchSnapshot();
+    expect($.req).toMatchSnapshot();
+    expect($.http).toMatchSnapshot();
+    expect(window.location).toBe('test-retry');
+  });
 });
