@@ -106,4 +106,27 @@ describe('login h5', () => {
     expect($.http).toMatchSnapshot();
     expect(window.location).toBe('https://open.weixin.qq.com/?redirect_uri=test');
   });
+
+  test('login HTTP fail', async () => {
+    Taro.getStorageSync = jest.fn().mockReturnValue(null);
+
+    $.req = jest.fn().mockReturnValueOnce('test-code')
+      .mockReturnValueOnce('test-state');
+
+    $.http = jest.fn().mockResolvedValueOnce({
+      ret: Ret.err('Test HTTP fail'),
+    });
+
+    $.alert = jest.fn();
+
+    await login();
+    await waitFor(() => {
+      expect($.http).toBeCalled();
+    });
+
+    expect(Taro.getStorageSync).toMatchSnapshot();
+    expect($.req).toMatchSnapshot();
+    expect($.http).toMatchSnapshot();
+    expect($.alert).toMatchSnapshot();
+  });
 });
