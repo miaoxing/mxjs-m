@@ -82,4 +82,28 @@ describe('login h5', () => {
     expect($.http).toMatchSnapshot();
     expect(window.location).toBe('https://open.weixin.qq.com/?redirect_uri=test');
   });
+
+  test('redirect if has code without state', async () => {
+    window.location.href = 'https://test.com/path?a=b';
+
+    Taro.getStorageSync = jest.fn().mockReturnValue(null);
+
+    $.req = jest.fn().mockReturnValueOnce('test-code')
+      .mockReturnValueOnce(undefined);
+
+    $.http = jest.fn().mockResolvedValueOnce({
+      ret: Ret.suc({
+        url: 'https://open.weixin.qq.com/?redirect_uri=test',
+      }),
+    });
+
+    await login();
+    await waitFor(() => {
+      expect($.http).toBeCalled();
+    });
+
+    expect(Taro.getStorageSync).toMatchSnapshot();
+    expect($.http).toMatchSnapshot();
+    expect(window.location).toBe('https://open.weixin.qq.com/?redirect_uri=test');
+  });
 });
