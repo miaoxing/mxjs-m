@@ -26,4 +26,4 @@ export default async () => {
 
   // 3. 记录 token
   Taro.setStorageSync('token', ret.token);
-}
+};

@@ -28,7 +28,7 @@ export default async () => {
     });
     if (ret.isSuc()) {
       Taro.setStorageSync('token', ret.token);
-      const {code, state, ...params} = qs.parse(window.location.search);
+      const {code: codeIgnore, state: stateIgnore, ...params} = qs.parse(window.location.search);
       // 跳转移除当前地址中的 code 和 state 参数
       // noinspection ES6MissingAwait 实际不会 resolve
       Taro.redirectTo({

@@ -1,8 +1,8 @@
 import '@mxjs/taro';
-import login from './login.h5';
 import Taro from '@tarojs/taro';
 import $, {Ret} from 'miaoxing';
 import {waitFor} from '@testing-library/react';
+import login from './login.h5';
 
 describe('login h5', () => {
   process.env.TARO_ENV = 'h5';

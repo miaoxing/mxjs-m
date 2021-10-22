@@ -1,9 +1,9 @@
 import '@mxjs/taro';
-import login from './login.weapp';
 import Taro from '@tarojs/taro';
 import $, {Ret} from 'miaoxing';
 import {createPromise} from '@mxjs/test';
 import {waitFor} from '@testing-library/react';
+import login from './login.weapp';
 
 describe('login weapp', () => {
   test('suc', async () => {
