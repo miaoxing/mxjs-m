@@ -55,6 +55,7 @@
     "@babel/runtime": "^7.7.7",
     "@fower/taro": "^1.16.0",
     "@mxjs/taro": "^0.1.0",
+    "@mxjs/app": "^0.3.2",
     "@tarojs/components": "3.3.1",
     "@tarojs/plugin-html": "^3.3.1",
     "@tarojs/react": "3.3.1",
@@ -82,6 +83,19 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "stylelint": "9.3.0",
     "typescript": "^4.1.0",
-    "@miaoxing/dev": "^7.0.1"
+    "@miaoxing/dev": "^7.0.1",
+    "babel-preset-miaoxing": "^0.4.0",
+    "jest-preset-miaoxing": "^0.2.4",
+    "ts-jest": "^26.2.0",
+    "@mxjs/test": "^0.1.8",
+    "@testing-library/react": "^11.2.6"
+  },
+  "ciDependencies": {
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev",
+    "@mxjs/taro": "miaoxing/mxjs-taro",
+    "@mxjs/app": "miaoxing/mxjs-app",
+    "miaoxing": "miaoxing/miaoxing-js"
   }
 }
