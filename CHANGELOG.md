@@ -1,0 +1,42 @@
+## [0.1.1](https://github.com/miaoxing/mxjs-m/compare/v0.1.0...v0.1.1) (2021-10-28)
+
+
+### Bug Fixes
+
+* **m:** 解决自定义样式被内置样式覆盖 ([646457f](https://github.com/miaoxing/mxjs-m/commit/646457f89cd7171dec40653d173211714054d972))
+* 指定 node >=12.10.0 ([c85d51f](https://github.com/miaoxing/mxjs-m/commit/c85d51fb5eb1bc19ec5da40af5d486067494e76d))
+
+
+### Features
+
+* **m:** h5 轮播图图片居中显示 ([f53b535](https://github.com/miaoxing/mxjs-m/commit/f53b5351b869fbc0673f36103fd1c035a2ae5e59))
+* **m:** 初始化小程序框架 ([248c3c8](https://github.com/miaoxing/mxjs-m/commit/248c3c8819d0f57523568d4d3c9d959fdff74715))
+* **m:** 增加 `fower-preset-miaoxing`，自定义主题 ([c1fcb03](https://github.com/miaoxing/mxjs-m/commit/c1fcb03be5a9f044b312854890956a09f38199f2))
+* **m:** 增加 `viewport-fit=cover`，以便 `safe-area-inset-*` 参数生效 ([92a6b53](https://github.com/miaoxing/mxjs-m/commit/92a6b53b5b1a740163f9a8f1784e2c8855e2b1fe))
+* **m:** 增加全局 `border` 类 ([1b85f1e](https://github.com/miaoxing/mxjs-m/commit/1b85f1e30dc8fed7762d56f2c030b9fe17c89273))
+* **m:** 增加服务号前端登录操作 ([22cae81](https://github.com/miaoxing/mxjs-m/commit/22cae81259576f8d980c1a47c1fb032417be38d1))
+* **m:** 增加配置文件 ([1ec3ad2](https://github.com/miaoxing/mxjs-m/commit/1ec3ad264ba0bb3f5e794270c1a809bc7847ef28))
+* **m:** 引入 `@mxjs/taro`, `miaoxing` 来调用接口 ([75dc0e6](https://github.com/miaoxing/mxjs-m/commit/75dc0e69139a7c8f4335a2c9d4a3996990564fec))
+* **m:** 引入 `taro-plugin-miaoxing` 插件 ([8db890e](https://github.com/miaoxing/mxjs-m/commit/8db890edf8e1b6edb16d0f32056c36565a647055))
+* **m:** 授权失败，如果接口返回重试地址，跳转重试，否则提示错误 ([b7d7d26](https://github.com/miaoxing/mxjs-m/commit/b7d7d2638c5ff78b4664eba83399278f4b1dc897))
+* **m:** 支持使用 HTML 标签 ([c2af179](https://github.com/miaoxing/mxjs-m/commit/c2af179da526ec765076fc4769051a50f8711dea))
+* **m:** 更新 taro 从 `3.2.9` 到 `3.3.1` ([c4a4a84](https://github.com/miaoxing/mxjs-m/commit/c4a4a84c8f877fdf7c5ee7b27e64cbf88eef6143))
+* **m:** 进入小程序后自动登录，登录后获取到 token，才发送其他请求 ([f90997c](https://github.com/miaoxing/mxjs-m/commit/f90997c06d239252e483dfef837cb05041467c6a))
+* **m:** 进入页面时，加载后台的主题配置 ([a4a523d](https://github.com/miaoxing/mxjs-m/commit/a4a523d29e10edbff8207e4065ed0069b818c24c))
+* **m, internal:** 增加兼容 CSS，调整 taro h5 样式和小程序一致 ([e8801ef](https://github.com/miaoxing/mxjs-m/commit/e8801ef7f8e9404bae076bb012e575f1d24c04ec))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `0.1.0` to `0.1.1`
+* **@mxjs/app:** upgrade from `0.3.2` to `0.3.3`
+* **fower-preset-miaoxing:** upgrade from `0.1.0` to `0.2.0`
+* **miaoxing:** upgrade from `0.2.5` to `0.3.0`
+* **taro-plugin-miaoxing:** upgrade from `0.1.0` to `0.1.1`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+* **babel-preset-miaoxing:** upgrade from `0.4.0` to `0.5.0`
+* **jest-preset-miaoxing:** upgrade from `0.2.4` to `0.2.5`
+* **@mxjs/test:** upgrade from `0.1.8` to `0.2.0`
