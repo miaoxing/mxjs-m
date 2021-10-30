@@ -8,7 +8,10 @@
     "../packages/miaoxing",
     "../packages/mxjs-border",
     "../packages/mxjs-taro",
-    "../packages/taro-plugin-miaoxing"
+    "../packages/taro-plugin-miaoxing",
+    "../packages/miaoxing-dev",
+    "../packages/mxjs-test",
+    "../paclages/jest-preset-miaoxing"
   ],
   "engines": {
     "node": ">=12.10.0"
