@@ -11,7 +11,7 @@
     "../packages/taro-plugin-miaoxing",
     "../packages/miaoxing-dev",
     "../packages/mxjs-test",
-    "../paclages/jest-preset-miaoxing"
+    "../packages/jest-preset-miaoxing"
   ],
   "engines": {
     "node": ">=12.10.0"
