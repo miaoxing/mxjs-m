@@ -1372,10 +1372,10 @@
   dependencies:
     csstype "^3.0.8"
 
-"@fower/atomic-props@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/atomic-props/download/@fower/atomic-props-1.52.0.tgz#a64cd558b4e954f00e974232ee851c77923efb0e"
-  integrity sha1-pkzVWLTpVPAOl0Iy7oUcd5I++w4=
+"@fower/atomic-props@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/atomic-props/download/@fower/atomic-props-1.63.0.tgz#b00b32136820ad219467dfbc15421058b300f558"
+  integrity sha512-5hEZ43fREv/5ymA12SYf/yTvpiTPTzyC+cRhzuClbEHFByLeMp78VwYDGF+k4cXy48qeFr18nwXHU/C0ROIB2g==
   dependencies:
     csstype "^3.0.8"
 
@@ -1384,20 +1384,20 @@
   resolved "https://registry.nlark.com/@fower/color-helper/download/@fower/color-helper-1.41.0.tgz#e8b6890cd1a1557aa16406625a5f39fd7ba4af54"
   integrity sha1-6LaJDNGhVXqhZAZiWl85/Xukr1Q=
 
-"@fower/color-helper@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/color-helper/download/@fower/color-helper-1.52.0.tgz#7f90f9b70b2a767870c51c659f7f14e02b42a422"
-  integrity sha1-f5D5twsqdnhwxRxln38U4CtCpCI=
+"@fower/color-helper@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/color-helper/download/@fower/color-helper-1.63.0.tgz#e1d6a4bd83c739846117464b0fe5118952dea6eb"
+  integrity sha512-ulKd6ve7nuw0kMWohZm9L2Kz32v6L/KD12Rq+rc2xD5097hW0/zAntjvH2WiV5xBGT5sSW2XMjyDucBoFAs0vg==
 
 "@fower/colors@^1.41.0":
   version "1.41.0"
   resolved "https://registry.nlark.com/@fower/colors/download/@fower/colors-1.41.0.tgz#383e8b021494399fb37c67a91e0ed9fde31bde46"
   integrity sha1-OD6LAhSUOZ+zfGepHg7Z/eMb3kY=
 
-"@fower/colors@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/colors/download/@fower/colors-1.52.0.tgz#5cd2769f56b4ec98db9da0b45dabe3bee2611bd7"
-  integrity sha1-XNJ2n1a07JjbnaC0XavjvuJhG9c=
+"@fower/colors@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/colors/download/@fower/colors-1.63.0.tgz#a0af394aee08aa7fbad5e9c55ca93a400fba6b05"
+  integrity sha512-RkbIlwSW7QPbp4aGYhZfUYddHF8u1x1WmexN64+BpZxnvmS7H01oS4Fuu4rsYN+0r4ijtH+WyT07BC5/OCbF5g==
 
 "@fower/core@^1.41.0":
   version "1.41.0"
@@ -1410,14 +1410,15 @@
     deepmerge "^4.2.2"
     string-hash "^1.1.3"
 
-"@fower/core@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/core/download/@fower/core-1.52.0.tgz#98aa1f3bbbd93dbfd9e9090147facef135d3a1c9"
-  integrity sha1-mKofO7vZPb/Z6QkBR/rO8TXTock=
+"@fower/core@^1.61.0", "@fower/core@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/core/download/@fower/core-1.63.0.tgz#3055c17b26b4ae9adb71225f01fe2c2ea8a1aeea"
+  integrity sha512-Kyu/DZE87lbMMZaM2GnNk+s3R/J44pnHq5DbYLxdRgJleJF2ijDLYmQ6/0CFqlpU5+EsByBVUPqFmXOYUUyK7w==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/css-object-processor" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/color-helper" "^1.63.0"
+    "@fower/css-object-processor" "^1.63.0"
+    "@fower/utils" "^1.63.0"
     deepmerge "^4.2.2"
     string-hash "^1.1.3"
 
@@ -1429,12 +1430,12 @@
     "@fower/utils" "^1.41.0"
     csstype "^3.0.8"
 
-"@fower/css-object-processor@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/css-object-processor/download/@fower/css-object-processor-1.52.0.tgz#a97a3861cdc973866771939fc25bf3ae0494db60"
-  integrity sha1-qXo4Yc3Jc4ZncZOfwlvzrgSU22A=
+"@fower/css-object-processor@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/css-object-processor/download/@fower/css-object-processor-1.63.0.tgz#00f4b227f635b2936d9b70f8681f9e2bcffed681"
+  integrity sha512-6a9Vra+qT0ZnC9ByolPwxkj/PxRrTGLxui9Ll5HKPtmEUqdmt18EYbGIZUivmXtaA4Txas1+DD9n3uaZctbyYA==
   dependencies:
-    "@fower/utils" "^1.52.0"
+    "@fower/utils" "^1.63.0"
     csstype "^3.0.8"
 
 "@fower/preset-taro@^1.41.0":
@@ -1478,46 +1479,46 @@
     fower-plugin-visibility "^1.41.0"
     fower-plugin-z-index "^1.41.0"
 
-"@fower/preset-taro@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/preset-taro/download/@fower/preset-taro-1.52.0.tgz#d5d13c643d3cda2a025758955143033450115092"
-  integrity sha1-1dE8ZD082ioCV1iVUUMDNFARUJI=
+"@fower/preset-taro@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/preset-taro/download/@fower/preset-taro-1.63.0.tgz#a692b327bf828edad996f7de8a26a7d084f8a3ea"
+  integrity sha512-PPUnIvn5CorZOi9SeUEjG7c4h3u3hrQHYDMjk79QwuKVJAvCN2sgxMt0z3DkEKNnwCkreCQVfcNvVE44k5MBTQ==
   dependencies:
-    "@fower/colors" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    fower-plugin-background "^1.52.0"
-    fower-plugin-border "^1.52.0"
-    fower-plugin-box-alignment "^1.52.0"
-    fower-plugin-box-sizing "^1.52.0"
-    fower-plugin-color "^1.52.0"
-    fower-plugin-cursor "^1.52.0"
-    fower-plugin-debug "^1.52.0"
-    fower-plugin-display "^1.52.0"
-    fower-plugin-flexbox "^1.52.0"
-    fower-plugin-font-family "^1.52.0"
-    fower-plugin-font-style "^1.52.0"
-    fower-plugin-font-weight "^1.52.0"
-    fower-plugin-gradient "^1.52.0"
-    fower-plugin-grid "^1.52.0"
-    fower-plugin-layout "^1.52.0"
-    fower-plugin-line-height "^1.52.0"
-    fower-plugin-margin "^1.52.0"
-    fower-plugin-opacity "^1.52.0"
-    fower-plugin-outline "^1.52.0"
-    fower-plugin-overflow "^1.52.0"
-    fower-plugin-padding "^1.52.0"
-    fower-plugin-position "^1.52.0"
-    fower-plugin-rounded "^1.52.0"
-    fower-plugin-shadow "^1.52.0"
-    fower-plugin-size "^1.52.0"
-    fower-plugin-space "^1.52.0"
-    fower-plugin-text-align "^1.52.0"
-    fower-plugin-text-decoration "^1.52.0"
-    fower-plugin-text-overflow "^1.52.0"
-    fower-plugin-text-size "^1.52.0"
-    fower-plugin-text-transform "^1.52.0"
-    fower-plugin-visibility "^1.52.0"
-    fower-plugin-z-index "^1.52.0"
+    "@fower/colors" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    fower-plugin-background "^1.63.0"
+    fower-plugin-border "^1.63.0"
+    fower-plugin-box-alignment "^1.63.0"
+    fower-plugin-box-sizing "^1.63.0"
+    fower-plugin-color "^1.63.0"
+    fower-plugin-cursor "^1.63.0"
+    fower-plugin-debug "^1.63.0"
+    fower-plugin-display "^1.63.0"
+    fower-plugin-flexbox "^1.63.0"
+    fower-plugin-font-family "^1.63.0"
+    fower-plugin-font-style "^1.63.0"
+    fower-plugin-font-weight "^1.63.0"
+    fower-plugin-gradient "^1.63.0"
+    fower-plugin-grid "^1.63.0"
+    fower-plugin-layout "^1.63.0"
+    fower-plugin-line-height "^1.63.0"
+    fower-plugin-margin "^1.63.0"
+    fower-plugin-opacity "^1.63.0"
+    fower-plugin-outline "^1.63.0"
+    fower-plugin-overflow "^1.63.0"
+    fower-plugin-padding "^1.63.0"
+    fower-plugin-position "^1.63.0"
+    fower-plugin-rounded "^1.63.0"
+    fower-plugin-shadow "^1.63.0"
+    fower-plugin-size "^1.63.0"
+    fower-plugin-space "^1.63.0"
+    fower-plugin-text-align "^1.63.0"
+    fower-plugin-text-decoration "^1.63.0"
+    fower-plugin-text-overflow "^1.63.0"
+    fower-plugin-text-size "^1.63.0"
+    fower-plugin-text-transform "^1.63.0"
+    fower-plugin-visibility "^1.63.0"
+    fower-plugin-z-index "^1.63.0"
 
 "@fower/styled@^1.41.0":
   version "1.41.0"
@@ -1529,14 +1530,14 @@
     "@fower/utils" "^1.41.0"
     hoist-non-react-statics "^3.3.2"
 
-"@fower/styled@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/styled/download/@fower/styled-1.52.0.tgz#7a8785fe2be404993b2f5086bd985fe04b875fc6"
-  integrity sha1-eoeF/ivkBJk7L1CGvZhf4EuHX8Y=
+"@fower/styled@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/styled/download/@fower/styled-1.63.0.tgz#f6cd92c3fffa648a590e310809e385ecef00ed65"
+  integrity sha512-TtNJ+Q/RYz2yb/o95A7e4tz9ilAIlyWGynJIUsdaf+w6tX81oQxeABLo+HAj+9rzgeGVmAavClt7vnOqm8sZCQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
     hoist-non-react-statics "^3.3.2"
 
 "@fower/taro@^1.16.0":
@@ -1548,14 +1549,14 @@
     "@fower/preset-taro" "^1.41.0"
     "@fower/styled" "^1.41.0"
 
-"@fower/taro@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/taro/download/@fower/taro-1.52.0.tgz#afd9afc8336f606580590a6721287bb2cf0ef160"
-  integrity sha1-r9mvyDNvYGWAWQpnISh7ss8O8WA=
+"@fower/taro@^1.61.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/taro/download/@fower/taro-1.63.0.tgz#b25d2365491b23b861fbf901ee79a821d75496ba"
+  integrity sha512-9zwhWVwTnOsicerUJSxxpIpyjk19v1jgpym8C0FgfTD7IM/R9oW52SgJXjmbsb2Td3UT+w6l2e6MLnyn3WRUgQ==
   dependencies:
-    "@fower/core" "^1.52.0"
-    "@fower/preset-taro" "^1.52.0"
-    "@fower/styled" "^1.52.0"
+    "@fower/core" "^1.63.0"
+    "@fower/preset-taro" "^1.63.0"
+    "@fower/styled" "^1.63.0"
 
 "@fower/utils@^1.41.0":
   version "1.41.0"
@@ -1565,10 +1566,10 @@
     "@types/string-hash" "^1.1.1"
     string-hash "^1.1.3"
 
-"@fower/utils@^1.52.0":
-  version "1.52.0"
-  resolved "https://registry.nlark.com/@fower/utils/download/@fower/utils-1.52.0.tgz#9f1e5ccc2c05dd148357986cf3a0a463a8d33ef9"
-  integrity sha1-nx5czCwF3RSDV5hs86CkY6jTPvk=
+"@fower/utils@^1.63.0":
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/@fower/utils/download/@fower/utils-1.63.0.tgz#4c80ac938e7d7cdc2d00422f5c2871757fd8f53a"
+  integrity sha512-5FtAfm+2DEXebNxpYRc26AvphzjZVPm4bvb3Icnfy4Nukg8c/ui3lf7GDRh9qmdQMhtpPSDG4cw6xFtgFSnsLA==
   dependencies:
     "@types/string-hash" "^1.1.1"
     string-hash "^1.1.3"
@@ -6155,15 +6156,15 @@ fower-plugin-background@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-background@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-background/download/fower-plugin-background-1.52.0.tgz#d8ca4576af4a13974a3c961045a1d851b021e868"
-  integrity sha1-2MpFdq9KE5dKPJYQRaHYUbAh6Gg=
+fower-plugin-background@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-background/download/fower-plugin-background-1.63.0.tgz#552cd1d21001418e6af7b0040701a3b26c9f3168"
+  integrity sha512-8G2YQsYcO85IObOhw88jnFIkFENiiSskylntTB2sHcYgutY+U1OrcY0dZU5SECbVYldtFzohaUrV/xwVWymXaA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/colors" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/colors" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-border@^1.41.0:
   version "1.41.0"
@@ -6174,14 +6175,14 @@ fower-plugin-border@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-border@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-border/download/fower-plugin-border-1.52.0.tgz#49dbc3dbb8fcef1a311c23e8e1399df38fabebbb"
-  integrity sha1-SdvD27j87xoxHCPo4Tmd84+r67s=
+fower-plugin-border@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-border/download/fower-plugin-border-1.63.0.tgz#e18f32e4a29196981a1294cd89b38f5a44b4a482"
+  integrity sha512-ihosoGLD8R5qSfR84IK7IgIrOWpqCTkCQ6qXnwWO8EsFVreMrFagB+duTCrGcI133j/Cvq4e9Bose6yJN0FYxA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-box-alignment@^1.41.0:
   version "1.41.0"
@@ -6192,14 +6193,14 @@ fower-plugin-box-alignment@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-box-alignment@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-box-alignment/download/fower-plugin-box-alignment-1.52.0.tgz#cc07bcb5e64e01ac4df3d1d4344747439ba4bacf"
-  integrity sha1-zAe8teZOAaxN89HUNEdHQ5ukus8=
+fower-plugin-box-alignment@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-box-alignment/download/fower-plugin-box-alignment-1.63.0.tgz#9460e532d77681192bf0f6b2cb8e86b3b487e0e9"
+  integrity sha512-ymgAoBMw2Qtpuz8B5W8vcysPwA/9QtvIA9JtT16vvbVpRKpd5JvoUHIHFbIur5Un3+X2tmjFHIxOFsVVn8iRHw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-box-sizing@^1.41.0:
   version "1.41.0"
@@ -6211,14 +6212,14 @@ fower-plugin-box-sizing@^1.41.0:
     "@fower/utils" "^1.41.0"
     csstype "^3.0.8"
 
-fower-plugin-box-sizing@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-box-sizing/download/fower-plugin-box-sizing-1.52.0.tgz#746bcac75f959d8803257e12216fe82fb9211c28"
-  integrity sha1-dGvKx1+VnYgDJX4SIW/oL7khHCg=
+fower-plugin-box-sizing@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-box-sizing/download/fower-plugin-box-sizing-1.63.0.tgz#eba2cb0ed1b5f509c52d4cebb3b276ab2e4a79fa"
+  integrity sha512-4Hz9wMpEfcF6MH/VfuCXUdMndr4n0nKle0YSnfxJEAj01TQjLd3/3sFvVnAnqliJyClNU0+kpUWhFiugjiFRRA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
     csstype "^3.0.8"
 
 fower-plugin-color@^1.41.0:
@@ -6231,15 +6232,15 @@ fower-plugin-color@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-color@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-color/download/fower-plugin-color-1.52.0.tgz#90dd84377f6947b8bb428acd0c94d13383e9c540"
-  integrity sha1-kN2EN39pR7i7QorNDJTRM4PpxUA=
+fower-plugin-color@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-color/download/fower-plugin-color-1.63.0.tgz#8040ac1af5d71870b56e718ee3c4b0111ae43ed8"
+  integrity sha512-TkkVFVumS9IR5lUOo06AtM/wjuumpn85VwH/Mnw1bcKbnRZo+33RwDPphazc5RAxaAp9HkbblYPVutDHtldKug==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/color-helper" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/color-helper" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-cursor@^1.41.0:
   version "1.41.0"
@@ -6250,14 +6251,14 @@ fower-plugin-cursor@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-cursor@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-cursor/download/fower-plugin-cursor-1.52.0.tgz#3bbd792adf7ad6cb2ae62bbc70386c4403a4c30b"
-  integrity sha1-O715Kt961ssq5iu8cDhsRAOkwws=
+fower-plugin-cursor@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-cursor/download/fower-plugin-cursor-1.63.0.tgz#6534704e86daf29f13bd03873cbb1c0296b19b54"
+  integrity sha512-3FpsW5vd7F4JdXwTfON1k9C7S6PWdTT/4BtRMcO9Lznj8/FUKQa9RPCAHg9rXNbnsbAMkE0KGOWm8Ow9wHmN5A==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-debug@^1.41.0:
   version "1.41.0"
@@ -6268,14 +6269,14 @@ fower-plugin-debug@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-debug@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-debug/download/fower-plugin-debug-1.52.0.tgz#a85ba90230df78bd6a4b07655773e27ccb158961"
-  integrity sha1-qFupAjDfeL1qSwdlV3PifMsViWE=
+fower-plugin-debug@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-debug/download/fower-plugin-debug-1.63.0.tgz#cdaf4492656fa2dbcd3de5a0d86b3b12a5d52aed"
+  integrity sha512-ps2EWwPzi5pWoPKfVm9Txg+Vf+2f7+KOkME9FSJK0pAFnVEciOxlpJtllDo2hIMl5+BgNSRlRk09UIkOHHdq3g==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-display@^1.41.0:
   version "1.41.0"
@@ -6286,14 +6287,14 @@ fower-plugin-display@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-display@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-display/download/fower-plugin-display-1.52.0.tgz#4827985bd33dc2c0bc48ac2625b9236fb25abe3b"
-  integrity sha1-SCeYW9M9wsC8SKwmJbkjb7Javjs=
+fower-plugin-display@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-display/download/fower-plugin-display-1.63.0.tgz#e238e587ce3de781e55aea55f8be975c520aef92"
+  integrity sha512-uamiDSbhQghfJRS14WAfwl9Tpnn/t+iE6JWBG70WO3l+ZgjIE/xiM347kFBqxGTqZaCoV9x/mZomlxCRNmG9zw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-ellipsis@^1.41.0:
   version "1.41.0"
@@ -6313,14 +6314,14 @@ fower-plugin-flexbox@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-flexbox@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-flexbox/download/fower-plugin-flexbox-1.52.0.tgz#740532bb1931379a2a439df8c851faf38caa0b6c"
-  integrity sha1-dAUyuxkxN5oqQ534yFH684yqC2w=
+fower-plugin-flexbox@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-flexbox/download/fower-plugin-flexbox-1.63.0.tgz#00a5f3cac210e20730428879c2699fb060eb6c92"
+  integrity sha512-2uE4dVEVEnS6VXV8qflLwdWE8tppTQToJT37HAyffgopHfkzM0hZkwb88LEVwm78/fepEEb4y30PFPCBBb4Dtg==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-font-family@^1.41.0:
   version "1.41.0"
@@ -6331,14 +6332,14 @@ fower-plugin-font-family@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-font-family@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-font-family/download/fower-plugin-font-family-1.52.0.tgz#fa6e9bed0c5b86055d063d6edb2cc61f6a86e4cf"
-  integrity sha1-+m6b7QxbhgVdBj1u2yzGH2qG5M8=
+fower-plugin-font-family@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-font-family/download/fower-plugin-font-family-1.63.0.tgz#91373a7adb95eea7fc59578b9905b18ba8db9e5d"
+  integrity sha512-leoHb7Lw3fUnPQKOQNd/2KgdC0P2OAApZ2EjzIxgEH3BZbBR6bwFmBHIC/Th9JjqgRwOuVNVINj+2fNPlK2PaQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-font-style@^1.41.0:
   version "1.41.0"
@@ -6349,14 +6350,14 @@ fower-plugin-font-style@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-font-style@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-font-style/download/fower-plugin-font-style-1.52.0.tgz#5dd3d35a2eed70140d3908abf233d64845cc17f7"
-  integrity sha1-XdPTWi7tcBQNOQir8jPWSEXMF/c=
+fower-plugin-font-style@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-font-style/download/fower-plugin-font-style-1.63.0.tgz#fb811cae843d463578d64ce95547db5a5a2106a4"
+  integrity sha512-Yn7GG0WtDnavVNgZxnUSPTn6LHCeQrRvFQCOzAjLVFXA/OjqHBm0gOD8aKYnWO+DJ/pammUIHdzUH1lfAFLBfw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-font-weight@^1.41.0:
   version "1.41.0"
@@ -6367,23 +6368,23 @@ fower-plugin-font-weight@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-font-weight@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-font-weight/download/fower-plugin-font-weight-1.52.0.tgz#09af299da70b4d21a9ac3f5985faa66df9247f51"
-  integrity sha1-Ca8pnacLTSGprD9Zhfqmbfkkf1E=
+fower-plugin-font-weight@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-font-weight/download/fower-plugin-font-weight-1.63.0.tgz#14ba35069851b79213c7e2649405eec16be8f4ad"
+  integrity sha512-wurEcQeNlDKZ2NIxvpiri+dnMFIO85kYxNztwwRePmmk4Udc4vxrqgz3NvhHFWq5II3TxiKXVl+lcBi70jUYiw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
-fower-plugin-gradient@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-gradient/download/fower-plugin-gradient-1.52.0.tgz#9087dccaeccaff0e9dc7952e9ed51b1f2c968afb"
-  integrity sha1-kIfcyuzK/w6dx5UuntUbHyyWivs=
+fower-plugin-gradient@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-gradient/download/fower-plugin-gradient-1.63.0.tgz#d576e336ad8edc2e0c2335cf2986be5f1a16fa4f"
+  integrity sha512-gbwGVhuDqBnYEkxPPDGfyMPZf5HvqvVk2FqT22I7xxHGi1MtWWeP5C/06pE6mxoIo8Nk+llgEK3SZCdkZ34oYw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
     csstype "^3.0.8"
 
 fower-plugin-grid@^1.41.0:
@@ -6395,14 +6396,14 @@ fower-plugin-grid@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-grid@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-grid/download/fower-plugin-grid-1.52.0.tgz#fb59025d7a649dd4f589b53bdd7c7110c89efe49"
-  integrity sha1-+1kCXXpkndT1ibU73XxxEMie/kk=
+fower-plugin-grid@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-grid/download/fower-plugin-grid-1.63.0.tgz#20b5563661d91c3ba59c162078763da0acb49961"
+  integrity sha512-M5x+bikV669xF1o2Z0cuzPqR/nvBpqYCdwBi/aIMFguKTfUKb3gAw0dQkRaP2suEW44eZZT4a2bPYVEQEJHiTg==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-layout@^1.41.0:
   version "1.41.0"
@@ -6413,14 +6414,14 @@ fower-plugin-layout@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-layout@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-layout/download/fower-plugin-layout-1.52.0.tgz#b2d06e71f945a44adf03f239b66a37c5e9dba254"
-  integrity sha1-stBucflFpErfA/I5tmo3xenbolQ=
+fower-plugin-layout@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-layout/download/fower-plugin-layout-1.63.0.tgz#b8ec7b2f82247d77d9e9a5fd94a1355069f813ff"
+  integrity sha512-Gh+zHVESISeU0WZD6CvDfmkZQHxfp6faERrTn6625vC+mH88aHGn3HQuCjU1qYjeexB2S/2zSWIbb4sJHTRMbA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-line-height@^1.41.0:
   version "1.41.0"
@@ -6431,14 +6432,14 @@ fower-plugin-line-height@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-line-height@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-line-height/download/fower-plugin-line-height-1.52.0.tgz#cb3f6f199eafb328fd34c0c4fe21e95f60bb351c"
-  integrity sha1-yz9vGZ6vsyj9NMDE/iHpX2C7NRw=
+fower-plugin-line-height@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-line-height/download/fower-plugin-line-height-1.63.0.tgz#6dd2537c2a7dce4fb66b5ff3b5c9d19144e43ef7"
+  integrity sha512-jQE57Yq1eotPv6P1XXHOL9qMESVpuVV/sGnGAJEDRR/XJtEkTmXKuY+tUeyDWLhfErfEUU/Ty+gK00RfPhaKUw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-margin@^1.41.0:
   version "1.41.0"
@@ -6449,14 +6450,14 @@ fower-plugin-margin@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-margin@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-margin/download/fower-plugin-margin-1.52.0.tgz#d1be140841ee8ea40b6100b15b3b99906377fd22"
-  integrity sha1-0b4UCEHujqQLYQCxWzuZkGN3/SI=
+fower-plugin-margin@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-margin/download/fower-plugin-margin-1.63.0.tgz#7bf440d02339928b3db42cb006c49ef5f4b97e98"
+  integrity sha512-UQKTvpJ2TYMAYLko7tftrgQ0e1dQC2t47HSYuy/xyM7iHjtAhetTtsVfntPcWiyO5rse6aJBW67Hv3Rh2gO5Yg==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-opacity@^1.41.0:
   version "1.41.0"
@@ -6467,14 +6468,14 @@ fower-plugin-opacity@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-opacity@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-opacity/download/fower-plugin-opacity-1.52.0.tgz#a26689b51014caf46088a05fdf68de79d0a7c537"
-  integrity sha1-omaJtRAUyvRgiKBf32jeedCnxTc=
+fower-plugin-opacity@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-opacity/download/fower-plugin-opacity-1.63.0.tgz#242237bb839aebeecbf17d80be709bfcff4de116"
+  integrity sha512-iIzXKggUh17OUu5JONKkhzfBezO8/ps6oBN+kYLzxDiPLE9Lla+zs+xE99z6Q/EVR3JFU2Pt40KTmbEHVB/Wqg==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-outline@^1.41.0:
   version "1.41.0"
@@ -6485,14 +6486,14 @@ fower-plugin-outline@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-outline@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-outline/download/fower-plugin-outline-1.52.0.tgz#aeb35a6e487f807187110919eb55761648ef097e"
-  integrity sha1-rrNabkh/gHGHEQkZ61V2FkjvCX4=
+fower-plugin-outline@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-outline/download/fower-plugin-outline-1.63.0.tgz#9d44dac051c243cd568b95d90751b39037eecae0"
+  integrity sha512-4L37MEUb3/GaELzruQSHOGm5lXBYUESN4S6aKCuYQX2uwckgHCjTWvdLVreGGQakPkrsaY0rbwdTNxKdhFxTiQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-overflow@^1.41.0:
   version "1.41.0"
@@ -6503,14 +6504,14 @@ fower-plugin-overflow@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-overflow@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-overflow/download/fower-plugin-overflow-1.52.0.tgz#219ecd295f0a9e311840177025d17918daeebdef"
-  integrity sha1-IZ7NKV8KnjEYQBdwJdF5GNruve8=
+fower-plugin-overflow@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-overflow/download/fower-plugin-overflow-1.63.0.tgz#da7859fafda5abc7d6388122d0d4dae95f45a466"
+  integrity sha512-zAM+tTOgUQRSNR381LZpQgJvRX9hTRcmjh2u8Cyf5bf/g/Zhzt8cc3pVBzrk5RJ5/mCtZ6LTW7364t7EL7CXjA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-padding@^1.41.0:
   version "1.41.0"
@@ -6521,14 +6522,14 @@ fower-plugin-padding@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-padding@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-padding/download/fower-plugin-padding-1.52.0.tgz#30d654903b7aeb42a83b11ea49a1c928a82cf21c"
-  integrity sha1-MNZUkDt660KoOxHqSaHJKKgs8hw=
+fower-plugin-padding@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-padding/download/fower-plugin-padding-1.63.0.tgz#247d307d45d3633886d830f57a3d6758f85002e7"
+  integrity sha512-jloaE8jeadbyWNKHrTgH1oFdT+693JenESEo4d3Fl2675IPqK1PCMxHipIpmfukg7haUOA/Eb+NxXh1bKXwFKg==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-position@^1.41.0:
   version "1.41.0"
@@ -6539,14 +6540,14 @@ fower-plugin-position@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-position@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-position/download/fower-plugin-position-1.52.0.tgz#9f72ce8cee7c5d4410d86cdf312416402c004f4a"
-  integrity sha1-n3LOjO58XUQQ2GzfMSQWQCwAT0o=
+fower-plugin-position@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-position/download/fower-plugin-position-1.63.0.tgz#51ae1c6499b028a898e668098964559f2300cc66"
+  integrity sha512-Ia4HezAtCMR/ytLxlZTlYWNPdAJcbtINmEN1kbFUmNpqHMsMKEzFJRAXlFT/ZcMhJvuJH1gHdVevVY2HEaISuw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-rounded@^1.41.0:
   version "1.41.0"
@@ -6557,14 +6558,14 @@ fower-plugin-rounded@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-rounded@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-rounded/download/fower-plugin-rounded-1.52.0.tgz#14dd9454a3a4a038f531d951db7ee50a77923b4c"
-  integrity sha1-FN2UVKOkoDj1MdlR237lCneSO0w=
+fower-plugin-rounded@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-rounded/download/fower-plugin-rounded-1.63.0.tgz#1efecce7ccb38fb8db7d53aa96888af664a82837"
+  integrity sha512-qm7Cc0YR0U+Elw0NFXV65e8ErvgLyWY9STjvZVhQVZ0uJqMy7QrEnj/WHi+4tGYhRiepLUUgd0EaxpUXesYv+A==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-shadow@^1.41.0:
   version "1.41.0"
@@ -6575,14 +6576,14 @@ fower-plugin-shadow@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-shadow@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-shadow/download/fower-plugin-shadow-1.52.0.tgz#b3fb8cd2caa83329f5b4281a122f741dce566d29"
-  integrity sha1-s/uM0sqoMyn1tCgaEi90Hc5WbSk=
+fower-plugin-shadow@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-shadow/download/fower-plugin-shadow-1.63.0.tgz#83cd772fec92919e68eb5d318b622d691940a0c5"
+  integrity sha512-LPecSd93e59sV12KG8J0D9YXFAKX7h/wPLMozbMyQleSulVetJuHLyI9n70+BzUY6lUWuRhYL+f02bpCbK1IsQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-size@^1.41.0:
   version "1.41.0"
@@ -6593,14 +6594,14 @@ fower-plugin-size@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-size@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-size/download/fower-plugin-size-1.52.0.tgz#08247ad74dc2301562425efc560d7ee9a37afd6c"
-  integrity sha1-CCR6103CMBViQl78Vg1+6aN6/Ww=
+fower-plugin-size@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-size/download/fower-plugin-size-1.63.0.tgz#0bc09da6d2e9418d9b3e32051b77fb7c5fb670b8"
+  integrity sha512-7Uhj3uoYnoxel2UaAEd/V6CGl4w0a+oOtrhUZKh3KaSn9lVhstny09kUNj997GkyG3dORX8aOm2wCyv70j+WBQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-space@^1.41.0:
   version "1.41.0"
@@ -6611,14 +6612,14 @@ fower-plugin-space@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-space@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-space/download/fower-plugin-space-1.52.0.tgz#b6a1dd14e50a2a1a68276217845685ffb7b1afca"
-  integrity sha1-tqHdFOUKKhpoJ2IXhFaF/7exr8o=
+fower-plugin-space@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-space/download/fower-plugin-space-1.63.0.tgz#d4e5f5d1f48050db0ca98ab9663c716a6253cc17"
+  integrity sha512-c1ymMzERlbfh8Dju9LDyBA/VGMuU1NCeWxR5fA6xLpWzJDkTLU6qf365fNBmeodFmdPmEQK8YbyoZGlLrUFppw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-text-align@^1.41.0:
   version "1.41.0"
@@ -6629,14 +6630,14 @@ fower-plugin-text-align@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-text-align@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-text-align/download/fower-plugin-text-align-1.52.0.tgz#240620ce0964ef6d03a7d5040b11283117232704"
-  integrity sha1-JAYgzglk720Dp9UECxEoMRcjJwQ=
+fower-plugin-text-align@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-text-align/download/fower-plugin-text-align-1.63.0.tgz#0d6f46cf3427675fc37ca13133cdba721e3f974f"
+  integrity sha512-tSjEV+6S/CtpXMEoVayqE4/6jKDiyJl72X27LpqzG6wq9SEEQLNR6eRJP44QAgN4QvTryQjgCNVG8fnbXwXf8g==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-text-decoration@^1.41.0:
   version "1.41.0"
@@ -6647,14 +6648,14 @@ fower-plugin-text-decoration@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-text-decoration@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-text-decoration/download/fower-plugin-text-decoration-1.52.0.tgz#506c5d16d870af1abeb08713699cd6b753b0b5ea"
-  integrity sha1-UGxdFthwrxq+sIcTaZzWt1Owteo=
+fower-plugin-text-decoration@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-text-decoration/download/fower-plugin-text-decoration-1.63.0.tgz#33a7c6bd3b14f467c03eef2f6d905d4a4dad646d"
+  integrity sha512-ZWET/uzdF26uvBnfaa2fLG9Hez9Sx6XOMHRK1uNFj6Eo1PIHdWNwh9iCMMpcjzKxuJyUOSlGRoCV9p018nAorQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-text-overflow@^1.41.0:
   version "1.41.0"
@@ -6665,14 +6666,14 @@ fower-plugin-text-overflow@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-text-overflow@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-text-overflow/download/fower-plugin-text-overflow-1.52.0.tgz#4f8d6facc9b1ed84c06a1bf64bddb08e86c97b11"
-  integrity sha1-T41vrMmx7YTAahv2S92wjobJexE=
+fower-plugin-text-overflow@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-text-overflow/download/fower-plugin-text-overflow-1.63.0.tgz#93ebc60704b3f62d5a98218771fe393578254bbf"
+  integrity sha512-LmTChON9Eo3TT6DpSu2OT5I3phEy6mysaqnpO/QZ3/MK8Nn0ZZ0+Za2pjA10xPKDBvdaWZgEEwLC5jiNZUKwEA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-text-size@^1.41.0:
   version "1.41.0"
@@ -6683,14 +6684,14 @@ fower-plugin-text-size@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-text-size@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-text-size/download/fower-plugin-text-size-1.52.0.tgz#38ab4530ae93cee103e52ef376d98e52acf96908"
-  integrity sha1-OKtFMK6TzuED5S7zdtmOUqz5aQg=
+fower-plugin-text-size@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-text-size/download/fower-plugin-text-size-1.63.0.tgz#d3b5a7796d5b5d95c59e71a90a831efd433dfdde"
+  integrity sha512-2j8Fg/7wUwVhSx8rO+NyPhEMel/lD8t0uqPINufSLeUVw1A5VXzWQ2JsGrqn+BmhHe1aSKFfVdt17nIo0O11Fw==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-text-transform@^1.41.0:
   version "1.41.0"
@@ -6701,14 +6702,14 @@ fower-plugin-text-transform@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-text-transform@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-text-transform/download/fower-plugin-text-transform-1.52.0.tgz#30ad87a862d67bf1af52ee91b69bd04fd8893b8e"
-  integrity sha1-MK2HqGLWe/GvUu6RtpvQT9iJO44=
+fower-plugin-text-transform@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-text-transform/download/fower-plugin-text-transform-1.63.0.tgz#c238f4bfe754238285f6235ec5ff0dce5e547235"
+  integrity sha512-cs4xUfihfF+91IBQciigMfXvt0HtClRA6h4nX6jtrQia0cZ1frNwi/BsGtgdlnqcA8zJFRApVBoyB3glhk9fjA==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fower-plugin-visibility@^1.41.0:
   version "1.41.0"
@@ -6720,14 +6721,14 @@ fower-plugin-visibility@^1.41.0:
     "@fower/utils" "^1.41.0"
     csstype "^3.0.8"
 
-fower-plugin-visibility@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-visibility/download/fower-plugin-visibility-1.52.0.tgz#cae315c1df3579311d2f64c50df396ace55b6831"
-  integrity sha1-yuMVwd81eTEdL2TFDfOWrOVbaDE=
+fower-plugin-visibility@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-visibility/download/fower-plugin-visibility-1.63.0.tgz#b0f1306d20e86a4dff1e900b927ba513e5222241"
+  integrity sha512-atUGzUKh7ApAnl+aR7AoX6ZiCnSGexra3iKMHRIMc2JyQa5ddif0DYPwfiucDmb49e/cLe6GBHHkfrJnimxeFQ==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
     csstype "^3.0.8"
 
 fower-plugin-z-index@^1.41.0:
@@ -6739,14 +6740,14 @@ fower-plugin-z-index@^1.41.0:
     "@fower/core" "^1.41.0"
     "@fower/utils" "^1.41.0"
 
-fower-plugin-z-index@^1.52.0:
-  version "1.52.0"
-  resolved "https://registry.nlark.com/fower-plugin-z-index/download/fower-plugin-z-index-1.52.0.tgz#12b6896cc1e050d2390db9138e71da791ab42317"
-  integrity sha1-EraJbMHgUNI5DbkTjnHaeRq0Ixc=
+fower-plugin-z-index@^1.63.0:
+  version "1.63.0"
+  resolved "https://registry.npmmirror.com/fower-plugin-z-index/download/fower-plugin-z-index-1.63.0.tgz#3e01072d86e673ca3914d78fdf964dc687f260e6"
+  integrity sha512-pPKvbgoHizfRBSaBpZV6tFeq7kUqOsHej2LdsJo3xBJsF4JLqgGIz+u0hmo35Cbi1JtbZKkP7VH5nec2Y+22/g==
   dependencies:
-    "@fower/atomic-props" "^1.52.0"
-    "@fower/core" "^1.52.0"
-    "@fower/utils" "^1.52.0"
+    "@fower/atomic-props" "^1.63.0"
+    "@fower/core" "^1.63.0"
+    "@fower/utils" "^1.63.0"
 
 fragment-cache@^0.2.1:
   version "0.2.1"
