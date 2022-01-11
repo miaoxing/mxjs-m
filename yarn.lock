@@ -12998,9 +12998,9 @@ uglify-js@3.4.x:
     source-map "~0.6.1"
 
 uglify-js@^3.5.1:
-  version "3.14.0"
-  resolved "https://registry.nlark.com/uglify-js/download/uglify-js-3.14.0.tgz?cache=0&sync_timestamp=1626965655878&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fuglify-js%2Fdownload%2Fuglify-js-3.14.0.tgz#2d723a0afee81e0d08db9354a9c277006e942386"
-  integrity sha1-LXI6Cv7oHg0I25NUqcJ3AG6UI4Y=
+  version "3.14.5"
+  resolved "https://registry.npmmirror.com/uglify-js/download/uglify-js-3.14.5.tgz#cdabb7d4954231d80cb4a927654c4655e51f4859"
+  integrity sha512-qZukoSxOG0urUTvjc2ERMTcAy+BiFh3weWAkeurLwjrCba73poHmG3E36XEjd/JGukMzwTL7uCxZiAexj8ppvQ==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
