@@ -1,3 +1,35 @@
+# [0.2.0](https://github.com/miaoxing/mxjs-m/compare/v0.1.1...v0.2.0) (2022-01-12)
+
+
+### Features
+
+* **taro:** 限制 taro 为 3.3.x，3.4 有 BREAKING CHANGES ([74eb0d0](https://github.com/miaoxing/mxjs-m/commit/74eb0d07ec3ca5b325e026640d10efe7c1eade40))
+* 更新 taro 到 `^3.3.20` ([450b95b](https://github.com/miaoxing/mxjs-m/commit/450b95bd22c9c52a38e53384cf436fcc714173d7))
+* 更新 typescript 到 `^4.5.2` ([d01ec0f](https://github.com/miaoxing/mxjs-m/commit/d01ec0f7e2320c50cc2fd116b9582424f342c278))
+* **m:** 配置改为读取根目录的统一配置 ([1d7d110](https://github.com/miaoxing/mxjs-m/commit/1d7d110d71bdbb6694c815beb8ab68b259060df1))
+
+
+### BREAKING CHANGES
+
+* 更新 typescript 到 `^4.5.2`
+* **m:** 配置改为读取根目录的统一配置
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `0.1.1` to `0.1.2`
+* **@mxjs/app:** upgrade from `0.3.3` to `0.4.0`
+* **fower-preset-miaoxing:** upgrade from `0.2.0` to `0.2.1`
+* **miaoxing:** upgrade from `0.3.0` to `0.4.0`
+* **taro-plugin-miaoxing:** upgrade from `0.1.1` to `0.1.2`
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+* **babel-preset-miaoxing:** upgrade from `0.5.0` to `0.6.0`
+* **jest-preset-miaoxing:** upgrade from `0.2.5` to `0.3.0`
+* **@mxjs/test:** upgrade from `0.2.0` to `0.2.1`
+
 ## [0.1.1](https://github.com/miaoxing/mxjs-m/compare/v0.1.0...v0.1.1) (2021-10-28)
 
 
