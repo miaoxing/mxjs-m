@@ -1707,22 +1707,22 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@mxjs/app@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.npmmirror.com/@mxjs/app/download/@mxjs/app-0.3.3.tgz#936569298fe22922b8e6c8155572538f3ac155f5"
-  integrity sha1-k2VpKY/iKSK45sgVVXJTjzrBVfU=
+"@mxjs/app@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.npmmirror.com/@mxjs/app/download/@mxjs/app-0.4.0.tgz#aa1d82cd985985508b312deb1c62e39df7057663"
+  integrity sha512-NGOyrDA+X05oQhtZ+5B98eGSkNy4mIh4nqvR9HPZ82hs5Oi9vbLVemFvSHwUwi1TSFDbTuZDl61mLbZ4h6C4Ww==
   dependencies:
-    append-url "^1.0.14"
+    append-url "^1.0.15"
     history "^4.10.1"
     query-string "^6.12.1"
 
-"@mxjs/axios@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.npmmirror.com/@mxjs/axios/download/@mxjs/axios-0.1.8.tgz#cfcfe00a343404459faf7caa545ea58279571580"
-  integrity sha1-z8/gCjQ0BEWfr3yqVF6lgnlXFYA=
+"@mxjs/axios@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.npmmirror.com/@mxjs/axios/download/@mxjs/axios-0.1.9.tgz#0c5d8da6cb53d8a630b7e3cccc69f1ac35e2e2cd"
+  integrity sha512-BxsUtBk6AiMJKcrsyo1R1VIvfDvqpjbvWpiw/++acnBZvYdVrT6IvjJWgxKm/6kXiCbc05Vzc+gV93iAoPXdTg==
   dependencies:
     axios "^0.19.1"
-    miaoxing "^0.3.0"
+    miaoxing "^0.4.0"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -2999,10 +2999,10 @@ anymatch@^3.0.3, anymatch@~3.1.1, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-append-url@^1.0.14:
-  version "1.0.14"
-  resolved "https://registry.npmmirror.com/append-url/download/append-url-1.0.14.tgz#a855c203a3d456246b2039419336097fa4fbb603"
-  integrity sha1-qFXCA6PUViRrIDlBkzYJf6T7tgM=
+append-url@^1.0.15:
+  version "1.0.15"
+  resolved "https://registry.npmmirror.com/append-url/download/append-url-1.0.15.tgz#7b855440f469b816b4fcef3886ca0ebfe6b37777"
+  integrity sha512-WDHUosUYwShFTwXcsgdthRXUaoguCRIYwbYYrpcXgN7jqUy+sFXBtyZpMRSVyfEywSKc4Ig2A1UgKcLMCmmj8A==
   dependencies:
     jquery-param "^1.0.2"
 
@@ -3421,10 +3421,10 @@ babel-preset-jest@^26.6.2:
     babel-plugin-jest-hoist "^26.6.2"
     babel-preset-current-node-syntax "^1.0.0"
 
-babel-preset-miaoxing@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.npmmirror.com/babel-preset-miaoxing/download/babel-preset-miaoxing-0.5.0.tgz#f974fa818743d3eabaa78de0b5963bcacdb6da10"
-  integrity sha1-+XT6gYdD0+q6p43gtZY7ys222hA=
+babel-preset-miaoxing@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.npmmirror.com/babel-preset-miaoxing/download/babel-preset-miaoxing-0.6.0.tgz#8b1131d083f5d19e2406531616a1b1b1a87240dc"
+  integrity sha512-7HPJBxAPGYjlM2/1Us7rVce9J8eIYBU409sSssSwduhAaYTpYyUHFOntXQ7fDhlFrrcipzRcrsGSyL8XFtkPUw==
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-class-properties" "^7.8.3"
@@ -9156,9 +9156,9 @@ nan@^2.12.1:
   integrity sha1-9TdkAGlRaPTMaUrJOT0MlYXu6hk=
 
 nanoid@^3.1.23:
-  version "3.1.23"
-  resolved "https://registry.nlark.com/nanoid/download/nanoid-3.1.23.tgz#f744086ce7c2bc47ee0a8472574d5c78e4183a81"
-  integrity sha1-90QIbOfCvEfuCoRyV01ceOQYOoE=
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
+  integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
