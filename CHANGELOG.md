@@ -1,3 +1,21 @@
+## [0.2.4](https://github.com/miaoxing/mxjs-m/compare/v0.2.3...v0.2.4) (2022-03-31)
+
+
+### Features
+
+* 更新 `fower` 到 `^1.70.0` ([7e937a6](https://github.com/miaoxing/mxjs-m/commit/7e937a6a0e74f5d8e358589abf4c66a266e87821))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `0.1.4` to `0.1.5`
+* **@mxjs/app:** upgrade from `0.4.2` to `0.4.3`
+* **fower-preset-miaoxing:** upgrade from `0.2.2` to `0.2.3`
+* **@mxjs/test:** upgrade from `0.2.3` to `0.2.4`
+
 ## [0.2.3](https://github.com/miaoxing/mxjs-m/compare/v0.2.2...v0.2.3) (2022-03-04)
 
 
