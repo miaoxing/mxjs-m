@@ -14,7 +14,7 @@ export default class Index extends Component {
 
   navigate = (path) => {
     Taro.navigateToMiniProgram({
-      appId: 'wxeaddb758dbfda2e7',
+      appId: 'wx04b1610d1541ca74',
       path: path,
       extraData: {
         from: 'welcome',
