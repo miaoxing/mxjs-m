@@ -19,6 +19,7 @@ const config = {
     fs.realpathSync('../packages/taro-plugin-miaoxing/index.ts'),
   ],
   defineConstants: {
+    'process.env.BASE_API_URL': JSON.stringify(process.env.BASE_API_URL)
   },
   copy: {
     patterns: [
