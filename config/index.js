@@ -19,22 +19,18 @@ const config = {
     fs.realpathSync('../packages/taro-plugin-miaoxing/index.ts'),
   ],
   defineConstants: {
-    'process.env.BASE_API_URL': JSON.stringify(process.env.BASE_API_URL)
+    'process.env.BASE_API_URL': JSON.stringify(process.env.BASE_API_URL),
   },
   copy: {
-    patterns: [
-    ],
-    options: {
-    },
+    patterns: [],
+    options: {},
   },
   framework: 'react',
   mini: {
     postcss: {
       pxtransform: {
         enable: true,
-        config: {
-
-        },
+        config: {},
       },
       url: {
         enable: true,
@@ -57,7 +53,7 @@ const config = {
       const modulesPath = path.resolve(__dirname, '../node_modules');
       chain.resolve.alias
         .set('react', modulesPath + '/react')
-        .set('@fower/taro', modulesPath  + '/@fower/taro')
+        .set('@fower/taro', modulesPath + '/@fower/taro')
         .set('@fower/core', modulesPath + '/@fower/core');
     },
   },
@@ -68,8 +64,7 @@ const config = {
     postcss: {
       autoprefixer: {
         enable: true,
-        config: {
-        },
+        config: {},
       },
       cssModules: {
         enable: false, // 默认为 false，如需使用 css modules 功能，则设为 true
@@ -100,6 +95,11 @@ const config = {
     '@/config': path.resolve(__dirname, '..', 'src/config'),
   },
 };
+
+// 复制到构建包根目录下供用户修改
+if ('weapp' === process.env.TARO_ENV) {
+  config.copy.patterns.push({from: 'src/config.js', to: 'dist/config.js'});
+}
 
 module.exports = function (merge) {
   if (process.env.NODE_ENV === 'development') {
