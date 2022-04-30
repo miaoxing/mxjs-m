@@ -1,3 +1,19 @@
+## [0.2.5](https://github.com/miaoxing/mxjs-m/compare/v0.2.4...v0.2.5) (2022-04-30)
+
+
+### Features
+
+* **u, m:** 允许通过环境变量或修改首页指定网页构建包中的接口地址 ([f33c539](https://github.com/miaoxing/mxjs-m/commit/f33c539019c623262c2abecb7297cf78514af52c))
+* **u, m, weapp:** 允许修改构建包根目录下 config.js 来配置接口地址 ([90f7932](https://github.com/miaoxing/mxjs-m/commit/90f7932f9340c3680aefdce03a14fb214f7c0fd8))
+
+
+
+
+
+### Dependencies
+
+* **taro-plugin-miaoxing:** upgrade from `0.1.3` to `0.1.4`
+
 ## [0.2.4](https://github.com/miaoxing/mxjs-m/compare/v0.2.3...v0.2.4) (2022-03-31)
 
 
