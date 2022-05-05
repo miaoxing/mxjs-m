@@ -1,6 +1,9 @@
 import path from 'path';
 import fs from 'fs';
 
+// NOTE: 暂不支持更改
+const index = 'index.html';
+
 const config = {
   projectName: 'miaoxing',
   date: '2021-5-25',
@@ -80,6 +83,11 @@ const config = {
     router: {
       mode: 'browser',
     },
+    devServer: {
+      historyApiFallback: {
+        index: '/' + index,
+      },
+    },
     webpackChain(chain) {
       chain.module
         .rule('script')
@@ -88,6 +96,11 @@ const config = {
         .clear()
         .add(filename => /@tarojs\/components/.test(filename))
         .end();
+
+      chain.plugin('htmlWebpackPlugin').tap(args => {
+        args[0].filename = index;
+        return args;
+      });
     },
   },
   alias: {
