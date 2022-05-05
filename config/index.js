@@ -23,6 +23,7 @@ const config = {
   ],
   defineConstants: {
     'process.env.BASE_API_URL': JSON.stringify(process.env.BASE_API_URL),
+    'process.env.ROUTER_MODE': JSON.stringify(process.env.ROUTER_MODE),
   },
   copy: {
     patterns: [],
@@ -81,7 +82,7 @@ const config = {
       ignoreOrder: true,
     },
     router: {
-      mode: 'hash',
+      mode: process.env.ROUTER_MODE || 'hash',
     },
     devServer: {
       historyApiFallback: {
