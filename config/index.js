@@ -1,8 +1,8 @@
 import path from 'path';
 import fs from 'fs';
 
-// NOTE: 暂不支持更改
-const index = 'index.html';
+// NOTE: dev 模式下，router.mode 为 browser 时，只能用回 index.html
+const index = 'm.html';
 
 const config = {
   projectName: 'miaoxing',
