@@ -81,7 +81,7 @@ const config = {
       ignoreOrder: true,
     },
     router: {
-      mode: 'browser',
+      mode: 'hash',
     },
     devServer: {
       historyApiFallback: {
