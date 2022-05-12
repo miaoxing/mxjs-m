@@ -23,6 +23,7 @@ const config = {
   ],
   defineConstants: {
     'process.env.BASE_API_URL': JSON.stringify(process.env.BASE_API_URL),
+    'process.env.API_REWRITE': JSON.stringify(process.env.API_REWRITE),
     'process.env.ROUTER_MODE': JSON.stringify(process.env.ROUTER_MODE),
   },
   copy: {
