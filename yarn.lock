@@ -1706,15 +1706,6 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@mxjs/app@^0.4.3":
-  version "0.4.3"
-  resolved "https://registry.npmmirror.com/@mxjs/app/-/app-0.4.3.tgz#c408c29d09632080fe1058cbe74b3948051362fe"
-  integrity sha512-9p1XfAWLnba7H2Urq1srJ7F880tQAtBuKeuwrJJqgz9rTRiEdlFQ+pBm5g8aSjfpTx348NhLO03eZbL2UmpqUQ==
-  dependencies:
-    append-url "^1.0.16"
-    history "^4.10.1"
-    query-string "^6.12.1"
-
 "@mxjs/axios@^0.1.10":
   version "0.1.10"
   resolved "https://registry.npmmirror.com/@mxjs/axios/-/axios-0.1.10.tgz#662622a7cfe1bf9a9a2f87cdd081a0a49a2cfbd1"
@@ -2320,6 +2311,11 @@
   integrity sha1-If+6DZjaQ1DbZIkfkqnl2zzbThU=
   dependencies:
     "@types/node" "*"
+
+"@types/history@^4.0.0":
+  version "4.7.11"
+  resolved "https://registry.npmmirror.com/@types/history/-/history-4.7.11.tgz#56588b17ae8f50c53983a524fc3cc47437969d64"
+  integrity sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA==
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.3"
