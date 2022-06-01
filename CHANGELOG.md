@@ -1,3 +1,38 @@
+# [0.3.0](https://github.com/miaoxing/mxjs-m/compare/v0.2.5...v0.3.0) (2022-06-01)
+
+
+### Code Refactoring
+
+* **u, m:** 默认入口页由 `index.html` 改为 `m.html`，以便放到同一个目录下 ([fe01e9b](https://github.com/miaoxing/mxjs-m/commit/fe01e9b38d453c8ecd956bf17fbf7568a4976ff9))
+* **u, m:** 默认路由模式改为 `hash`，以便服务器不配置就能直接打开 ([effb88e](https://github.com/miaoxing/mxjs-m/commit/effb88e677e713ec6ac861ad33deb31d57438442))
+
+
+### Features
+
+* **u:** 允许配置环境变量 `ROUTER_MODE` 来指定路由模式 ([4923d35](https://github.com/miaoxing/mxjs-m/commit/4923d358f53096133c10166b95ddf93f24c65db6))
+* **u, m:** 允许环境变量自定义接口重写 ([c58ccf4](https://github.com/miaoxing/mxjs-m/commit/c58ccf4c90d901f1209840c84c104fb51712aa1a))
+
+
+### BREAKING CHANGES
+
+* **u, m:** 默认入口页由 `index.html` 改为 `m.html`，以便放到同一个目录下
+* **u, m:** 默认路由模式改为 `hash`，以便服务器不配置就能直接打开
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `0.1.5` to `0.2.0`
+* **@mxjs/app:** upgrade from `0.4.3` to `0.5.0`
+* **fower-preset-miaoxing:** upgrade from `0.2.3` to `0.2.4`
+* **miaoxing:** upgrade from `0.4.1` to `0.4.2`
+* **taro-plugin-miaoxing:** upgrade from `0.1.4` to `0.1.5`
+* **@miaoxing/dev:** upgrade from `8.1.0` to `8.1.1`
+* **jest-preset-miaoxing:** upgrade from `0.3.0` to `0.3.1`
+* **@mxjs/test:** upgrade from `0.2.4` to `0.2.5`
+
 ## [0.2.5](https://github.com/miaoxing/mxjs-m/compare/v0.2.4...v0.2.5) (2022-04-30)
 
 
