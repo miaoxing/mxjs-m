@@ -2,7 +2,11 @@ import '@mxjs/taro';
 import Taro from '@tarojs/taro';
 import $, {Ret} from 'miaoxing';
 import {waitFor} from '@testing-library/react';
+import {url} from '@mxjs/app';
 import login from './login.h5';
+
+url.setOption('apiRewrite', true);
+url.setOption('apiPath', 'm-api');
 
 describe('login h5', () => {
   process.env.TARO_ENV = 'h5';
@@ -27,6 +31,15 @@ describe('login h5', () => {
     window.location.href = 'https://test.com/path?a=b&code=test-code&state=test-state';
     window.location.search = '?a=b&code=test-code&state=test-state';
     window.location.pathname = '/path';
+
+    $.req = jest.fn().mockImplementation((name) => {
+      if ('code' === name) {
+        return 'test-code';
+      } else if ('state' === name) {
+        return 'test-state';
+      }
+      return null;
+    });
 
     Taro.getStorageSync = jest.fn().mockReturnValue(null);
 
@@ -58,6 +71,8 @@ describe('login h5', () => {
 
   test('redirect if no token', async () => {
     window.location.href = 'https://test.com/path?a=b';
+
+    $.req = jest.fn().mockReturnValue(null);
 
     Taro.getStorageSync = jest.fn().mockReturnValue(null);
 

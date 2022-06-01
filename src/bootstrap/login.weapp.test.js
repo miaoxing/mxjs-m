@@ -3,7 +3,11 @@ import Taro from '@tarojs/taro';
 import $, {Ret} from 'miaoxing';
 import {createPromise} from '@mxjs/test';
 import {waitFor} from '@testing-library/react';
+import {url} from '@mxjs/app';
 import login from './login.weapp';
+
+url.setOption('apiRewrite', true);
+url.setOption('apiPath', 'm-api');
 
 describe('login weapp', () => {
   test('suc', async () => {
