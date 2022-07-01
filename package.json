@@ -4,9 +4,12 @@
   "private": true,
   "description": "",
   "workspaces": [
+    "../packages/append-url",
+    "../packages/babel-preset-miaoxing",
     "../packages/fower-preset-miaoxing",
     "../packages/miaoxing",
     "../packages/mxjs-app",
+    "../packages/mxjs-axios",
     "../packages/mxjs-border",
     "../packages/mxjs-taro",
     "../packages/taro-plugin-miaoxing",

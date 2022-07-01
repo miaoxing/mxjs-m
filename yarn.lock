@@ -1706,14 +1706,6 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@mxjs/axios@^0.1.11":
-  version "0.1.11"
-  resolved "https://registry.npmmirror.com/@mxjs/axios/-/axios-0.1.11.tgz#25e6b7949a7d87b4b0e0f6fa5c215297a9e213cc"
-  integrity sha512-e9DvztwWZ+IYh94F4P7twPoF6WdEpNf9Wzwy8x6fdrXVwgeZh1fV8+z/HTLaODlwqa1tD/FBmQLu3+kqAWxI2A==
-  dependencies:
-    axios "^0.27.2"
-    miaoxing "^0.4.2"
-
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmmirror.com/@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -2994,13 +2986,6 @@ anymatch@^3.0.3, anymatch@~3.1.1, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-append-url@^1.0.17:
-  version "1.0.17"
-  resolved "https://registry.npmmirror.com/append-url/-/append-url-1.0.17.tgz#1a33ea42d0ade32e7a99344ff4c46c56435278fc"
-  integrity sha512-R3o9rMordo7otpy3zwAVJ2I/NTzceQZOEQgfCmZDf3SsVztR5CQR/W8Q43ZRnpy+4L9WYCHAa2VsrzhbSUIEkA==
-  dependencies:
-    jquery-param "^1.0.2"
-
 aproba@^1.0.3, aproba@^1.1.1:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/aproba/download/aproba-1.2.0.tgz#6802e6264efd18c790a1b0d517f0f2627bf2c94a"
@@ -3416,25 +3401,6 @@ babel-preset-jest@^26.6.2:
   dependencies:
     babel-plugin-jest-hoist "^26.6.2"
     babel-preset-current-node-syntax "^1.0.0"
-
-babel-preset-miaoxing@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmmirror.com/babel-preset-miaoxing/download/babel-preset-miaoxing-0.6.0.tgz#8b1131d083f5d19e2406531616a1b1b1a87240dc"
-  integrity sha512-7HPJBxAPGYjlM2/1Us7rVce9J8eIYBU409sSssSwduhAaYTpYyUHFOntXQ7fDhlFrrcipzRcrsGSyL8XFtkPUw==
-  dependencies:
-    "@babel/core" "^7.9.0"
-    "@babel/plugin-proposal-class-properties" "^7.8.3"
-    "@babel/plugin-proposal-decorators" "^7.8.3"
-    "@babel/plugin-proposal-export-default-from" "^7.8.3"
-    "@babel/plugin-transform-runtime" "^7.13.15"
-    "@babel/preset-env" "^7.14.0"
-    "@babel/preset-react" "^7.13.13"
-    "@babel/runtime" "^7.14.0"
-    "@babel/runtime-corejs3" "^7.14.0"
-    "@emotion/babel-plugin" "^11.3.0"
-    "@emotion/react" "^11.1.5"
-    babel-plugin-auto-import-name "^0.1.0"
-    babel-plugin-import "^1.13.0"
 
 babel-preset-taro@3.3.1:
   version "3.3.1"
