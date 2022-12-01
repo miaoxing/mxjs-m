@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": true,
   "description": "",
   "workspaces": [
@@ -61,7 +61,7 @@
   "dependencies": {
     "@babel/runtime": "^7.7.7",
     "@fower/taro": "^1.16.0",
-    "@mxjs/taro": "^1.0.1",
+    "@mxjs/taro": "^1.0.2",
     "@mxjs/app": "^0.5.3",
     "@tarojs/components": "3.3.1",
     "@tarojs/plugin-html": "^3.3.1",
@@ -69,7 +69,7 @@
     "@tarojs/runtime": "3.3.1",
     "@tarojs/taro": "3.3.1",
     "fower-preset-miaoxing": "^0.2.6",
-    "miaoxing": "^0.4.4",
+    "miaoxing": "^0.4.5",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "taro-plugin-miaoxing": "^0.1.7"
@@ -93,7 +93,7 @@
     "babel-preset-miaoxing": "^0.6.1",
     "jest-preset-miaoxing": "^0.3.1",
     "ts-jest": "^26.2.0",
-    "@mxjs/test": "^1.0.1",
+    "@mxjs/test": "^1.0.2",
     "@testing-library/react": "^11.2.6"
   },
   "ciDependencies": {
