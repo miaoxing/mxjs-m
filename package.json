@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.7",
-    "@fower/taro": "^1.16.0",
+    "@fower/taro": "~1.75.0",
     "@mxjs/taro": "^1.0.2",
     "@mxjs/app": "^0.5.3",
     "@tarojs/components": "3.3.1",
