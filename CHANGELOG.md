@@ -1,3 +1,13 @@
+## [0.3.6](https://github.com/miaoxing/mxjs-m/compare/v0.3.5...v0.3.6) (2023-04-18)
+
+
+
+
+
+### Dependencies
+
+* **fower-preset-miaoxing:** upgrade from `0.2.7` to `0.2.8`
+
 ## [0.3.5](https://github.com/miaoxing/mxjs-m/compare/v0.3.4...v0.3.5) (2023-01-01)
 
 
