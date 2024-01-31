@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m",
-  "version": "0.3.13",
+  "version": "0.3.14",
   "private": true,
   "description": "",
   "workspaces": [
@@ -68,7 +68,7 @@
     "@tarojs/react": "3.3.1",
     "@tarojs/runtime": "3.3.1",
     "@tarojs/taro": "3.3.1",
-    "fower-preset-miaoxing": "^0.2.14",
+    "fower-preset-miaoxing": "^0.2.15",
     "miaoxing": "^0.4.12",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
