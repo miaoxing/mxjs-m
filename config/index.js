@@ -83,7 +83,7 @@ const config = {
       ignoreOrder: true,
     },
     router: {
-      mode: process.env.ROUTER_MODE || 'hash',
+      mode: process.env.ROUTER_MODE || 'browser',
     },
     devServer: {
       historyApiFallback: {
