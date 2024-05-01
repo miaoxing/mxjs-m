@@ -1,3 +1,26 @@
+# [0.4.0](https://github.com/miaoxing/mxjs-m/compare/v0.3.15...v0.4.0) (2024-05-01)
+
+
+### Features
+
+* **m:** 默认路由使用 `browser` 模式 ([8e48295](https://github.com/miaoxing/mxjs-m/commit/8e48295f25c4d7e758676ae5bcc150e46afc5098))
+
+
+### BREAKING CHANGES
+
+* **m:** 默认路由使用 `browser` 模式
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `1.0.11` to `1.0.12`
+* **@mxjs/app:** upgrade from `0.6.6` to `0.7.0`
+* **miaoxing:** upgrade from `0.4.13` to `0.4.14`
+* **@mxjs/test:** upgrade from `1.0.11` to `1.1.0`
+
 ## [0.3.15](https://github.com/miaoxing/mxjs-m/compare/v0.3.14...v0.3.15) (2024-03-31)
 
 
