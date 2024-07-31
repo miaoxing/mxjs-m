@@ -1,3 +1,25 @@
+## [0.4.2](https://github.com/miaoxing/mxjs-m/compare/v0.4.1...v0.4.2) (2024-07-31)
+
+
+### Bug Fixes
+
+* **m:** 解决 node 18+ 提示 "digital envelope routines::unsupported" 错误 ([7182233](https://github.com/miaoxing/mxjs-m/commit/7182233a6f88b18e68e9344f60ddfdd8336defe8))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `1.0.13` to `1.0.14`
+* **@mxjs/app:** upgrade from `0.8.0` to `0.8.1`
+* **fower-preset-miaoxing:** upgrade from `0.2.16` to `0.2.17`
+* **miaoxing:** upgrade from `0.4.15` to `0.4.16`
+* **taro-plugin-miaoxing:** upgrade from `0.1.15` to `0.1.16`
+* **@miaoxing/dev:** upgrade from `9.1.1` to `9.1.2`
+* **babel-preset-miaoxing:** upgrade from `0.7.0` to `0.8.0`
+* **@mxjs/test:** upgrade from `2.0.0` to `2.0.1`
+
 ## [0.4.1](https://github.com/miaoxing/mxjs-m/compare/v0.4.0...v0.4.1) (2024-05-30)
 
 
