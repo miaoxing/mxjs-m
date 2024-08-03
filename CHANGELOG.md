@@ -1,3 +1,20 @@
+## [0.4.4](https://github.com/miaoxing/mxjs-m/compare/v0.4.3...v0.4.4) (2024-08-03)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `1.0.15` to `1.0.16`
+* **@mxjs/app:** upgrade from `0.8.1` to `0.8.2`
+* **fower-preset-miaoxing:** upgrade from `0.2.17` to `0.2.18`
+* **miaoxing:** upgrade from `0.4.17` to `0.4.18`
+* **taro-plugin-miaoxing:** upgrade from `0.1.16` to `0.1.17`
+* **@miaoxing/dev:** upgrade from `9.1.2` to `9.1.3`
+* **babel-preset-miaoxing:** upgrade from `0.8.0` to `0.8.1`
+* **@mxjs/test:** upgrade from `2.0.2` to `2.0.3`
+
 ## [0.4.3](https://github.com/miaoxing/mxjs-m/compare/v0.4.2...v0.4.3) (2024-08-02)
 
 
