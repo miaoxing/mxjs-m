@@ -106,7 +106,7 @@
     "jest-preset-miaoxing": "^0.3.1",
     "ts-jest": "^26.2.0",
     "@mxjs/test": "^2.0.5",
-    "@testing-library/react": "^11.2.6",
+    "@testing-library/react": "^14",
     "taro-ui": "^3.0.0-alpha.10",
     "@fower/taro": "~1.75.0",
     "taro-test": "^1.0.12",
