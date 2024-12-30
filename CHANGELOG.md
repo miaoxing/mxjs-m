@@ -1,3 +1,53 @@
+# [0.5.0](https://github.com/miaoxing/mxjs-m/compare/v0.4.6...v0.5.0) (2024-12-30)
+
+
+### Bug Fixes
+
+* **m:** 解决运行测试时 `clsx_1.default is not a function` 出错 ([9eaa9fb](https://github.com/miaoxing/mxjs-m/commit/9eaa9fbe8628784279bd1685c6b72066bf14e260))
+
+
+### Code Refactoring
+
+* Taro 相关功能移到 m 项目中 ([14dbe48](https://github.com/miaoxing/mxjs-m/commit/14dbe48ed72e4d8630caa7c34a7c8b36db91f157))
+
+
+### Features
+
+* **m:** 统一 taro 版本和组件版本一致 ([7dccbe0](https://github.com/miaoxing/mxjs-m/commit/7dccbe0b69962a0a447b23144ab7b0825dfd5ef6))
+
+
+### BREAKING CHANGES
+
+* Taro 相关功能移到 m 项目中
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `1.0.18` to `1.0.19`
+* **@mxjs/app:** upgrade from `0.8.4` to `0.8.5`
+* **fower-preset-miaoxing:** upgrade from `0.2.19` to `0.2.20`
+* **miaoxing:** upgrade from `0.4.19` to `0.4.20`
+* **@miaoxing/dev:** upgrade from `9.2.0` to `9.3.0`
+* **@mxjs/test:** upgrade from `2.0.5` to `2.0.6`
+* **taro-test:** upgrade from `1.0.12` to `1.0.13`
+* **@mxjs/money:** upgrade from `1.1.4` to `1.1.5`
+* **@mxjs/m-divider:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-icon:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-rich-text:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-page:** upgrade from `1.2.7` to `1.2.8`
+* **@mxjs/m-card:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-button:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-footer-bar:** upgrade from `1.2.7` to `1.2.8`
+* **@mxjs/m-list:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-ret:** upgrade from `1.1.7` to `1.1.8`
+* **@mxjs/m-stepper:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-empty:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-checkbox:** upgrade from `1.2.4` to `1.2.5`
+* **@mxjs/m-swipe-action:** upgrade from `1.2.4` to `1.2.5`
+
 ## [0.4.6](https://github.com/miaoxing/mxjs-m/compare/v0.4.5...v0.4.6) (2024-11-01)
 
 
