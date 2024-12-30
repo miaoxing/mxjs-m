@@ -1,5 +1,5 @@
 $border-color: var(--mx-colors-gray-300);
 
-@import '~@tarojs/taro/html';
+@import '../node_modules/@tarojs/taro/html';
 @import 'compat';
 @import '~@mxjs/border';
