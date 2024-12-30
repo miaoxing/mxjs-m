@@ -1,0 +1,60 @@
+@import "~taro-ui/dist/style/components/float-layout.scss";
+
+.at-float-layout {
+  &__container,
+  & .layout-body,
+  & .layout-body__content {
+    // TODO 改为固定高度，以便每次打开都在同一位置
+    // 加大窗口最大高度
+    max-height: 99vh;
+    // 不限窗口最小高度
+    min-height: 0;
+  }
+}
+
+.sku-picker {
+  .at-float-layout__container {
+    // 头部使用圆角更加美观
+    border-top-left-radius: var(--mx-space-4);
+    border-top-right-radius: var(--mx-space-4);
+  }
+
+  // 内部元素自己控制间距
+  .layout-body {
+    padding: 0;
+  }
+
+  &-spec-item {
+    margin-bottom: var(--mx-space-3);
+    overflow: hidden;
+  }
+
+  &-spec-name {
+    margin-bottom: var(--mx-space-2);
+    font-size: var(--mx-fontSizes-sm);
+  }
+
+  &-spec-value {
+    float: left;
+    border-radius: var(--mx-space-1);
+    text-align: center;
+    font-size: var(--mx-fontSizes-xs);
+    line-height: 1;
+    min-width: var(--mx-space-6);
+    padding: var(--mx-space-2) var(--mx-space-3);
+    margin-bottom: var(--mx-space-2);
+    margin-right: var(--mx-space-2);
+    border: 1PX solid var(--mx-colors-gray-100);
+    background: var(--mx-colors-gray-100);
+
+    &.active {
+      color: var(--mx-colors-primary-500);
+      border-color: var(--mx-colors-primary-500);
+      background: var(--mx-colors-primary-50);
+    }
+
+    &.disabled {
+      color: var(--mx-colors-gray-400);
+    }
+  }
+}

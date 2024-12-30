@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Price basic 1`] = `
+<div>
+  <taro-text-core
+    primary500="true"
+  >
+    <taro-text-core>
+      ￥
+    </taro-text-core>
+    1
+    <taro-text-core>
+      .
+      1
+    </taro-text-core>
+  </taro-text-core>
+</div>
+`;
+
+exports[`Price float 1`] = `
+<div>
+  <taro-text-core
+    primary500="true"
+  >
+    <taro-text-core>
+      ￥
+    </taro-text-core>
+    12
+    <taro-text-core>
+      .
+      2
+    </taro-text-core>
+  </taro-text-core>
+</div>
+`;
+
+exports[`Price int 1`] = `
+<div>
+  <taro-text-core
+    primary500="true"
+  >
+    <taro-text-core>
+      ￥
+    </taro-text-core>
+    12
+  </taro-text-core>
+</div>
+`;

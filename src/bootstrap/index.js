@@ -17,7 +17,7 @@ const bootstrap = async () => {
     }
   }
 
-  config.url.apiPath = 'm-api';
+  config.url.apiPath = 'api';
 
   wei.setConfigs(config);
 

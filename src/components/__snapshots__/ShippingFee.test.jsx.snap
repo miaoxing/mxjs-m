@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShippingFee basic 1`] = `
+<div>
+  <taro-text-core>
+    到深圳
+     
+    快递：￥9.8
+  </taro-text-core>
+</div>
+`;
+
+exports[`ShippingFee basic 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "url": "/api/products/1/shipping-tpl?filterRulesByCity=1",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`ShippingFee free shipping 1`] = `
+<div>
+  <taro-text-core>
+    到广州
+     
+    包邮
+  </taro-text-core>
+</div>
+`;
+
+exports[`ShippingFee free shipping 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "url": "/api/products/1/shipping-tpl?filterRulesByCity=1",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`ShippingFee start fee 0 1`] = `
+<div>
+  <taro-text-core>
+    到北京
+     
+    快递：￥0
+  </taro-text-core>
+</div>
+`;
+
+exports[`ShippingFee start fee 0 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "url": "/api/products/1/shipping-tpl?filterRulesByCity=1",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`ShippingFee without city 1`] = `
+<div>
+  <taro-text-core>
+     
+    快递：￥9.8
+  </taro-text-core>
+</div>
+`;
+
+exports[`ShippingFee without city 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "url": "/api/products/1/shipping-tpl?filterRulesByCity=1",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;

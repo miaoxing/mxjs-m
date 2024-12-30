@@ -1,0 +1,814 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkuPicker basic 1`] = `
+<div>
+  <taro-view-core
+    class="at-float-layout sku-picker"
+  >
+    <taro-view-core
+      class="at-float-layout__overlay"
+    />
+    <taro-view-core
+      class="at-float-layout__container layout"
+    >
+      <taro-view-core
+        class="layout-body"
+      >
+        <taro-scroll-view-core
+          class="layout-body__content"
+          scrolly="true"
+        >
+          <taro-view-core
+            style="flex-direction: row; justify-content: space-between; display: flex;"
+          >
+            <taro-view-core
+              style="display: flex;"
+            >
+              <taro-image-core
+                src="https://dev.test.com/uploads/1/210610/002439539409.png"
+                style="border-radius: 4rpx; overflow: hidden;"
+              />
+              <taro-view-core
+                style="color: rgb(59, 130, 246); align-self: flex-end;"
+              />
+            </taro-view-core>
+            <taro-view-core
+              style="margin-top: -1rem; font-weight: 100; color: rgb(107, 114, 128);"
+            >
+              ×
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            style="max-height: 60vh; overflow-y: scroll;"
+          >
+            <taro-view-core
+              class="border-b"
+              style="flex-direction: column; display: flex;"
+            >
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  默认规格
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    默认值
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+            >
+              <taro-text-core
+                class="css-1vq2xix-SkuPicker"
+              >
+                数量
+              </taro-text-core>
+              <taro-view-core
+                style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+              >
+                <taro-text-core
+                  style="color: rgb(107, 114, 128);"
+                >
+                   
+                  剩下 
+                  21
+                   
+                  件
+                </taro-text-core>
+                 
+                <taro-view-core
+                  class="mx-stepper"
+                >
+                  <taro-button-core
+                    class="mx-stepper-minus"
+                    disabled="true"
+                  />
+                  <taro-input-core
+                    class="mx-stepper-input"
+                    value="1"
+                  />
+                  <taro-button-core
+                    class="mx-stepper-plus"
+                  />
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            class="mx-footer-bar __mx-footer-bar-2 __sku-picker-footer-bar-1"
+          >
+            <taro-view-core
+              class="mx-btn-theme mx-btn-theme-pill"
+            >
+              <taro-view-core
+                class="mx-btn-group"
+              >
+                <taro-button-core
+                  class="mx-btn mx-btn-secondary mx-footer-bar-btn"
+                >
+                  加入购物车
+                </taro-button-core>
+                <taro-button-core
+                  class="mx-btn mx-btn-primary mx-footer-bar-btn"
+                >
+                  立即购买
+                </taro-button-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+        </taro-scroll-view-core>
+      </taro-view-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`SkuPicker close 1`] = `
+Array [
+  Array [],
+]
+`;
+
+exports[`SkuPicker create cart 1`] = `
+<div>
+  <taro-view-core
+    class="at-float-layout sku-picker"
+  >
+    <taro-view-core
+      class="at-float-layout__overlay"
+    />
+    <taro-view-core
+      class="at-float-layout__container layout"
+    >
+      <taro-view-core
+        class="layout-body"
+      >
+        <taro-scroll-view-core
+          class="layout-body__content"
+          scrolly="true"
+        >
+          <taro-view-core
+            style="flex-direction: row; justify-content: space-between; display: flex;"
+          >
+            <taro-view-core
+              style="display: flex;"
+            >
+              <taro-image-core
+                src="https://dev.test.com/uploads/1/210610/002439539409.png"
+                style="border-radius: 4rpx; overflow: hidden;"
+              />
+              <taro-view-core
+                style="color: rgb(59, 130, 246); align-self: flex-end;"
+              >
+                <taro-text-core>
+                  ￥
+                </taro-text-core>
+                11
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="margin-top: -1rem; font-weight: 100; color: rgb(107, 114, 128);"
+            >
+              ×
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            style="max-height: 60vh; overflow-y: scroll;"
+          >
+            <taro-view-core
+              class="border-b"
+              style="flex-direction: column; display: flex;"
+            >
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  尺寸
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    S
+                  </taro-text-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value"
+                  >
+                    M
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  颜色
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value disabled"
+                  >
+                    红色
+                  </taro-text-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    蓝色
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+            >
+              <taro-text-core
+                class="css-1vq2xix-SkuPicker"
+              >
+                数量
+              </taro-text-core>
+              <taro-view-core
+                style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+              >
+                <taro-text-core
+                  style="color: rgb(107, 114, 128);"
+                >
+                   
+                  剩下 
+                  6
+                   
+                  件
+                </taro-text-core>
+                 
+                <taro-view-core
+                  class="mx-stepper"
+                >
+                  <taro-button-core
+                    class="mx-stepper-minus"
+                    disabled="true"
+                  />
+                  <taro-input-core
+                    class="mx-stepper-input"
+                    value="2"
+                  />
+                  <taro-button-core
+                    class="mx-stepper-plus"
+                  />
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            class="mx-footer-bar __mx-footer-bar-2 __sku-picker-footer-bar-1"
+          >
+            <taro-view-core
+              class="mx-btn-theme mx-btn-theme-pill"
+            >
+              <taro-view-core
+                class="mx-btn-group"
+              >
+                <taro-button-core
+                  class="mx-btn mx-btn-secondary mx-footer-bar-btn"
+                >
+                  加入购物车
+                </taro-button-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+        </taro-scroll-view-core>
+      </taro-view-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`SkuPicker create cart 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "quantity": 2,
+          "skuId": 2,
+        },
+        "method": "post",
+        "url": "/api/carts",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker create cart 3`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker create cart 4`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Ret {
+        "code": 0,
+        "message": "操作成功",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker create order 1`] = `
+<div>
+  <taro-view-core
+    class="at-float-layout sku-picker"
+  >
+    <taro-view-core
+      class="at-float-layout__overlay"
+    />
+    <taro-view-core
+      class="at-float-layout__container layout"
+    >
+      <taro-view-core
+        class="layout-body"
+      >
+        <taro-scroll-view-core
+          class="layout-body__content"
+          scrolly="true"
+        >
+          <taro-view-core
+            style="flex-direction: row; justify-content: space-between; display: flex;"
+          >
+            <taro-view-core
+              style="display: flex;"
+            >
+              <taro-image-core
+                src="https://dev.test.com/uploads/1/210610/002439539409.png"
+                style="border-radius: 4rpx; overflow: hidden;"
+              />
+              <taro-view-core
+                style="color: rgb(59, 130, 246); align-self: flex-end;"
+              >
+                <taro-text-core>
+                  ￥
+                </taro-text-core>
+                11
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="margin-top: -1rem; font-weight: 100; color: rgb(107, 114, 128);"
+            >
+              ×
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            style="max-height: 60vh; overflow-y: scroll;"
+          >
+            <taro-view-core
+              class="border-b"
+              style="flex-direction: column; display: flex;"
+            >
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  尺寸
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    S
+                  </taro-text-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value"
+                  >
+                    M
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  颜色
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value disabled"
+                  >
+                    红色
+                  </taro-text-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    蓝色
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+            >
+              <taro-text-core
+                class="css-1vq2xix-SkuPicker"
+              >
+                数量
+              </taro-text-core>
+              <taro-view-core
+                style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+              >
+                <taro-text-core
+                  style="color: rgb(107, 114, 128);"
+                >
+                   
+                  剩下 
+                  6
+                   
+                  件
+                </taro-text-core>
+                 
+                <taro-view-core
+                  class="mx-stepper"
+                >
+                  <taro-button-core
+                    class="mx-stepper-minus"
+                    disabled="true"
+                  />
+                  <taro-input-core
+                    class="mx-stepper-input"
+                    value="2"
+                  />
+                  <taro-button-core
+                    class="mx-stepper-plus"
+                  />
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            class="mx-footer-bar __mx-footer-bar-2 __sku-picker-footer-bar-1"
+          >
+            <taro-view-core
+              class="mx-btn-theme mx-btn-theme-pill"
+            >
+              <taro-view-core
+                class="mx-btn-group"
+              >
+                <taro-button-core
+                  class="mx-btn mx-btn-primary mx-footer-bar-btn"
+                >
+                  立即购买
+                </taro-button-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+        </taro-scroll-view-core>
+      </taro-view-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`SkuPicker create order 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "url": "/orders/new?skuId=2&quantity=2",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker create order 3`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker preview image 1`] = `
+Array [
+  Array [
+    Object {
+      "urls": Array [
+        "https://dev.test.com/uploads/1/210610/002439539409.png",
+      ],
+    },
+  ],
+]
+`;
+
+exports[`SkuPicker show unselected tips 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "quantity": 1,
+          "skuId": 2,
+        },
+        "method": "post",
+        "url": "/api/carts",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker show unselected tips 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "请选择尺寸",
+    ],
+    Array [
+      "请选择颜色",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker update cart 1`] = `
+<div>
+  <taro-view-core
+    class="at-float-layout sku-picker"
+  >
+    <taro-view-core
+      class="at-float-layout__overlay"
+    />
+    <taro-view-core
+      class="at-float-layout__container layout"
+    >
+      <taro-view-core
+        class="layout-body"
+      >
+        <taro-scroll-view-core
+          class="layout-body__content"
+          scrolly="true"
+        >
+          <taro-view-core
+            style="flex-direction: row; justify-content: space-between; display: flex;"
+          >
+            <taro-view-core
+              style="display: flex;"
+            >
+              <taro-image-core
+                src="https://dev.test.com/uploads/1/210610/002439539409.png"
+                style="border-radius: 4rpx; overflow: hidden;"
+              />
+              <taro-view-core
+                style="color: rgb(59, 130, 246); align-self: flex-end;"
+              >
+                <taro-text-core>
+                  ￥
+                </taro-text-core>
+                12
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="margin-top: -1rem; font-weight: 100; color: rgb(107, 114, 128);"
+            >
+              ×
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            style="max-height: 60vh; overflow-y: scroll;"
+          >
+            <taro-view-core
+              class="border-b"
+              style="flex-direction: column; display: flex;"
+            >
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  尺寸
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value disabled"
+                  >
+                    S
+                  </taro-text-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    M
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+              <taro-view-core
+                class="sku-picker-spec-item"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-name"
+                >
+                  颜色
+                </taro-view-core>
+                <taro-view-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value active"
+                  >
+                    红色
+                  </taro-text-core>
+                  <taro-text-core
+                    class="sku-picker-spec-value"
+                  >
+                    蓝色
+                  </taro-text-core>
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+            >
+              <taro-text-core
+                class="css-1vq2xix-SkuPicker"
+              >
+                数量
+              </taro-text-core>
+              <taro-view-core
+                style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+              >
+                <taro-text-core
+                  style="color: rgb(107, 114, 128);"
+                >
+                   
+                  剩下 
+                  7
+                   
+                  件
+                </taro-text-core>
+                 
+                <taro-view-core
+                  class="mx-stepper"
+                >
+                  <taro-button-core
+                    class="mx-stepper-minus"
+                  />
+                  <taro-input-core
+                    class="mx-stepper-input"
+                    value="4"
+                  />
+                  <taro-button-core
+                    class="mx-stepper-plus"
+                  />
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-view-core>
+          <taro-view-core
+            class="mx-footer-bar __mx-footer-bar-2 __sku-picker-footer-bar-1"
+          >
+            <taro-view-core
+              class="mx-btn-theme mx-btn-theme-pill"
+            >
+              <taro-button-core
+                class="mx-btn mx-btn-primary mx-footer-bar-btn"
+              >
+                确 定
+              </taro-button-core>
+            </taro-view-core>
+          </taro-view-core>
+        </taro-scroll-view-core>
+      </taro-view-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`SkuPicker update cart 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "data": Object {
+          "quantity": 4,
+          "skuId": 3,
+        },
+        "method": "patch",
+        "url": "/api/carts/1",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {},
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker update cart 3`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`SkuPicker update cart 4`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Ret {
+        "code": 0,
+        "message": "操作成功",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;

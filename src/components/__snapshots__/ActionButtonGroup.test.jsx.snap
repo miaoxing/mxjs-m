@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionButtonGroup basic 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-theme mx-btn-theme-pill"
+  >
+    <taro-view-core
+      class="mx-btn-group"
+    >
+      <taro-button-core
+        class="mx-btn mx-btn-secondary mx-footer-bar-btn"
+      >
+        加入购物车
+      </taro-button-core>
+      <taro-button-core
+        class="mx-btn mx-btn-primary mx-footer-bar-btn"
+      >
+        立即购买
+      </taro-button-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`ActionButtonGroup basic 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "createCart",
+      MouseEvent {
+        "isTrusted": false,
+      },
+    ],
+    Array [
+      "createOrder",
+      MouseEvent {
+        "isTrusted": false,
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`ActionButtonGroup error 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-theme mx-btn-theme-pill"
+  >
+    <taro-button-core
+      class="mx-btn mx-btn-primary mx-footer-bar-btn"
+      disabled="true"
+    >
+      已下架
+    </taro-button-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`ActionButtonGroup hide create cart 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-theme mx-btn-theme-pill"
+  >
+    <taro-view-core
+      class="mx-btn-group"
+    >
+      <taro-button-core
+        class="mx-btn mx-btn-primary mx-footer-bar-btn"
+      >
+        立即购买
+      </taro-button-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`ActionButtonGroup hide create order 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-theme mx-btn-theme-pill"
+  >
+    <taro-view-core
+      class="mx-btn-group"
+    >
+      <taro-button-core
+        class="mx-btn mx-btn-secondary mx-footer-bar-btn"
+      >
+        加入购物车
+      </taro-button-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`ActionButtonGroup update cart 1`] = `
+<div>
+  <taro-view-core
+    class="mx-btn-theme mx-btn-theme-pill"
+  >
+    <taro-button-core
+      class="mx-btn mx-btn-primary mx-footer-bar-btn"
+    >
+      确 定
+    </taro-button-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`ActionButtonGroup update cart 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "updateCart",
+      MouseEvent {
+        "isTrusted": false,
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;

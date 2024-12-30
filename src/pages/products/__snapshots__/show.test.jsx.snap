@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Show action 1`] = `
+Array [
+  Array [
+    Object {
+      "current": "https://dev.test.com/uploads/1/210610/002439539409.png",
+      "urls": Array [
+        "https://dev.test.com/uploads/1/210610/002439539409.png",
+        "https://dev.test.com/uploads/1/210610/000924427937.jpg",
+        "https://dev.test.com/uploads/1/210610/000918792585.jpg",
+        "https://dev.test.com/uploads/1/210610/002904468645.png",
+      ],
+    },
+  ],
+]
+`;
+
+exports[`Show action 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "ignoreError": true,
+        "url": "/api/products/1?include=detail",
+      },
+    ],
+    Array [
+      Object {
+        "url": "/api/carts/count",
+      },
+    ],
+    Array [
+      Object {
+        "url": "/api/products/1/shipping-tpl?filterRulesByCity=1",
+      },
+    ],
+    Array [
+      Object {
+        "data": Object {
+          "quantity": 1,
+          "skuId": 3,
+        },
+        "method": "post",
+        "url": "/api/carts",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;
+
+exports[`Show basic 1`] = `
+<div>
+  <taro-view-core
+    class="mx-page css-0"
+    style="--mx-colors-gray-50: #f9fafb; --mx-colors-gray-100: #f3f4f6; --mx-colors-gray-200: #e5e7eb; --mx-colors-gray-300: #d1d5db; --mx-colors-gray-400: #9ca3af; --mx-colors-gray-500: #6b7280; --mx-colors-gray-600: #4b5563; --mx-colors-gray-700: #374151; --mx-colors-gray-800: #1f2937; --mx-colors-gray-900: #111827; --mx-space-0: 0; --mx-space-1: 4; --mx-space-2: 8; --mx-space-3: 12; --mx-space-4: 16; --mx-space-5: 20; --mx-space-6: 24; --mx-space-7: 28; --mx-space-8: 32; --mx-space-9: 36; --mx-space-10: 40; --mx-space-11: 44; --mx-space-12: 48; --mx-space-14: 56; --mx-space-16: 64; --mx-space-20: 80; --mx-space-24: 96; --mx-space-28: 112; --mx-space-32: 128; --mx-space-36: 144; --mx-space-40: 160; --mx-space-44: 176; --mx-space-48: 192; --mx-space-52: 208; --mx-space-56: 224; --mx-space-60: 240; --mx-space-64: 256; --mx-space-72: 288; --mx-space-80: 320; --mx-space-96: 384; --mx-fontSizes-xs: 12; --mx-fontSizes-sm: 14; --mx-fontSizes-base: 16; --mx-fontSizes-lg: 18; --mx-fontSizes-xl: 20; --mx-fontSizes-2xl: 24; --mx-fontSizes-3xl: 30; --mx-fontSizes-4xl: 36; --mx-fontSizes-5xl: 48; --mx-fontSizes-6xl: 60; --mx-fontSizes-7xl: 72; --mx-fontSizes-8xl: 96; --mx-fontSizes-9xl: 128;"
+  >
+    <taro-swiper-core
+      autoplay="true"
+      circular="true"
+      indicatoractivecolor="rgba(0, 0, 0, .3)"
+      indicatorcolor="rgba(0, 0, 0, .1)"
+      indicatordots="true"
+      style="height: 100vw; background-color: rgb(255, 255, 255);"
+    >
+      <taro-swiper-item-core>
+        <taro-image-core
+          mode="aspectFit"
+          src="https://dev.test.com/uploads/1/210610/002439539409.png"
+          style="width: 100%; height: 100%;"
+        />
+      </taro-swiper-item-core>
+      <taro-swiper-item-core>
+        <taro-image-core
+          mode="aspectFit"
+          src="https://dev.test.com/uploads/1/210610/000924427937.jpg"
+          style="width: 100%; height: 100%;"
+        />
+      </taro-swiper-item-core>
+      <taro-swiper-item-core>
+        <taro-image-core
+          mode="aspectFit"
+          src="https://dev.test.com/uploads/1/210610/000918792585.jpg"
+          style="width: 100%; height: 100%;"
+        />
+      </taro-swiper-item-core>
+      <taro-swiper-item-core>
+        <taro-image-core
+          mode="aspectFit"
+          src="https://dev.test.com/uploads/1/210610/002904468645.png"
+          style="width: 100%; height: 100%;"
+        />
+      </taro-swiper-item-core>
+    </taro-swiper-core>
+    <taro-view-core
+      class="mx-card"
+    >
+      <taro-view-core
+        class="mx-card-body"
+      >
+        <taro-view-core>
+          <taro-text-core
+            style="color: rgb(59, 130, 246);"
+          >
+            <taro-text-core>
+              ￥
+            </taro-text-core>
+            9
+          </taro-text-core>
+          <taro-text-core
+            style="color: rgb(107, 114, 128);"
+          >
+            价格:￥
+            <taro-text-core
+              style="text-decoration: line-through;"
+            >
+              10
+            </taro-text-core>
+          </taro-text-core>
+        </taro-view-core>
+        <taro-view-core
+          style="flex-direction: row; justify-content: space-between; align-items: center; display: flex;"
+        >
+          <taro-view-core>
+            <taro-view-core>
+              alias commodi ipsam
+            </taro-view-core>
+            <taro-view-core
+              style="color: rgb(107, 114, 128);"
+            >
+              consequatur officia sequi
+            </taro-view-core>
+          </taro-view-core>
+          <taro-button-core
+            class="mx-btn"
+            opentype="share"
+            style="flex-direction: column; flex-shrink: 0; color: rgb(107, 114, 128); background-color: transparent; line-height: 1; justify-content: center; align-items: center; display: flex;"
+          >
+            <taro-text-core
+              class="mxi mxi-share"
+            />
+            <taro-text-core>
+              分享
+            </taro-text-core>
+          </taro-button-core>
+        </taro-view-core>
+      </taro-view-core>
+    </taro-view-core>
+    <taro-view-core
+      class="mx-card"
+    >
+      <taro-view-core
+        class="mx-list mx-list-sm mx-list-borderless"
+      >
+        <taro-view-core
+          class="mx-list-item mx-list-has-arrow mx-list-description-left"
+        >
+          <taro-view-core
+            class="mx-list-title"
+          >
+            选择
+          </taro-view-core>
+          <taro-view-core
+            class="mx-list-detail"
+          >
+            尺寸 / 颜色
+          </taro-view-core>
+          <taro-view-core
+            class="mx-list-arrow"
+          >
+            <taro-text-core
+              class="mxi mxi-arrow-right"
+            />
+          </taro-view-core>
+        </taro-view-core>
+        <taro-view-core
+          class="mx-list-item-3 mx-list-item mx-list-description-left"
+        >
+          <taro-view-core
+            class="mx-list-title"
+          >
+            发货
+          </taro-view-core>
+          <taro-view-core
+            class="mx-list-detail"
+            style="flex-direction: row; justify-content: space-between; display: flex;"
+          >
+            <taro-text-core>
+               
+              包邮
+            </taro-text-core>
+            <taro-text-core
+              style="color: rgb(156, 163, 175);"
+            >
+              销量 
+              0
+            </taro-text-core>
+          </taro-view-core>
+        </taro-view-core>
+      </taro-view-core>
+    </taro-view-core>
+    <taro-view-core
+      class="mx-divider"
+    >
+      商品详情
+    </taro-view-core>
+    <taro-view-core
+      style="background-color: rgb(255, 255, 255);"
+    >
+      <taro-view-core
+        class="mx-rich-text"
+      >
+        <p>
+          <img
+            alt="14 - 3 (2).png"
+            src="https://dev.test.com/uploads/images/20210528/1622199614338752.png"
+          />
+        </p>
+        <p>
+          Alice: he had a cons
+          <span
+            style="color: #548DD4;"
+          >
+            ultation about this, and after a few minutes it puffed away without speaking, but at any r
+          </span>
+          ate,' sai
+          <span
+            style="background-color: #F79646;"
+          >
+            d Alice: 'allo
+          </span>
+          w me to introduce it.' 'I don't know what a long way. So they got.
+        </p>
+      </taro-view-core>
+    </taro-view-core>
+    <taro-view-core
+      style="background-color: rgb(255, 255, 255);"
+    >
+      <taro-view-core
+        class="mx-divider"
+        style="flex-direction: row; align-items: center; display: flex;"
+      >
+        商品价格说明
+        <taro-text-core
+          class="mxi mxi-arrow-down"
+        />
+      </taro-view-core>
+    </taro-view-core>
+    <taro-view-core
+      class="mx-footer-bar __mx-footer-bar-1"
+    >
+      <taro-button-core
+        class="mx-btn mx-footer-bar-icon"
+      >
+        <taro-text-core
+          class="mxi mxi-home"
+        />
+        店铺
+      </taro-button-core>
+      <taro-button-core
+        class="mx-btn mx-footer-bar-icon"
+      >
+        <taro-view-core
+          class="at-badge cart-num"
+        >
+          <taro-text-core
+            class="mxi mxi-cart"
+          />
+          <taro-view-core
+            class="at-badge__num"
+          >
+            1
+          </taro-view-core>
+        </taro-view-core>
+        购物车
+      </taro-button-core>
+      <taro-view-core
+        class="mx-btn-theme mx-btn-theme-pill"
+      >
+        <taro-view-core
+          class="mx-btn-group"
+        >
+          <taro-button-core
+            class="mx-btn mx-btn-secondary mx-footer-bar-btn"
+          >
+            加入购物车
+          </taro-button-core>
+          <taro-button-core
+            class="mx-btn mx-btn-primary mx-footer-bar-btn"
+          >
+            立即购买
+          </taro-button-core>
+        </taro-view-core>
+      </taro-view-core>
+    </taro-view-core>
+    <taro-view-core
+      class="at-float-layout sku-picker"
+    >
+      <taro-view-core
+        class="at-float-layout__overlay"
+      />
+      <taro-view-core
+        class="at-float-layout__container layout"
+      >
+        <taro-view-core
+          class="layout-body"
+        >
+          <taro-scroll-view-core
+            class="layout-body__content"
+            scrolly="true"
+          >
+            <taro-view-core
+              style="flex-direction: row; justify-content: space-between; display: flex;"
+            >
+              <taro-view-core
+                style="display: flex;"
+              >
+                <taro-image-core
+                  src="https://dev.test.com/uploads/1/210610/002439539409.png"
+                  style="border-radius: 4rpx; overflow: hidden;"
+                />
+                <taro-view-core
+                  style="color: rgb(59, 130, 246); align-self: flex-end;"
+                >
+                  <taro-text-core>
+                    ￥
+                  </taro-text-core>
+                  9 ~ 14
+                </taro-view-core>
+              </taro-view-core>
+              <taro-view-core
+                style="margin-top: -1rem; font-weight: 100; color: rgb(107, 114, 128);"
+              >
+                ×
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              style="max-height: 60vh; overflow-y: scroll;"
+            >
+              <taro-view-core
+                class="border-b"
+                style="flex-direction: column; display: flex;"
+              >
+                <taro-view-core
+                  class="sku-picker-spec-item"
+                >
+                  <taro-view-core
+                    class="sku-picker-spec-name"
+                  >
+                    尺寸
+                  </taro-view-core>
+                  <taro-view-core>
+                    <taro-text-core
+                      class="sku-picker-spec-value"
+                    >
+                      S
+                    </taro-text-core>
+                    <taro-text-core
+                      class="sku-picker-spec-value"
+                    >
+                      M
+                    </taro-text-core>
+                  </taro-view-core>
+                </taro-view-core>
+                <taro-view-core
+                  class="sku-picker-spec-item"
+                >
+                  <taro-view-core
+                    class="sku-picker-spec-name"
+                  >
+                    颜色
+                  </taro-view-core>
+                  <taro-view-core>
+                    <taro-text-core
+                      class="sku-picker-spec-value"
+                    >
+                      红色
+                    </taro-text-core>
+                    <taro-text-core
+                      class="sku-picker-spec-value"
+                    >
+                      蓝色
+                    </taro-text-core>
+                  </taro-view-core>
+                </taro-view-core>
+              </taro-view-core>
+              <taro-view-core
+                style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+              >
+                <taro-text-core
+                  class="css-1vq2xix-SkuPicker"
+                >
+                  数量
+                </taro-text-core>
+                <taro-view-core
+                  style="flex-direction: row; align-items: center; justify-content: space-between; display: flex;"
+                >
+                  <taro-text-core
+                    style="color: rgb(107, 114, 128);"
+                  >
+                     
+                    剩下 
+                    21
+                     
+                    件
+                  </taro-text-core>
+                   
+                  <taro-view-core
+                    class="mx-stepper"
+                  >
+                    <taro-button-core
+                      class="mx-stepper-minus"
+                      disabled="true"
+                    />
+                    <taro-input-core
+                      class="mx-stepper-input"
+                      value="1"
+                    />
+                    <taro-button-core
+                      class="mx-stepper-plus"
+                    />
+                  </taro-view-core>
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+            <taro-view-core
+              class="mx-footer-bar __mx-footer-bar-3 __sku-picker-footer-bar-2"
+            >
+              <taro-view-core
+                class="mx-btn-theme mx-btn-theme-pill"
+              >
+                <taro-view-core
+                  class="mx-btn-group"
+                >
+                  <taro-button-core
+                    class="mx-btn mx-btn-secondary mx-footer-bar-btn"
+                  >
+                    加入购物车
+                  </taro-button-core>
+                  <taro-button-core
+                    class="mx-btn mx-btn-primary mx-footer-bar-btn"
+                  >
+                    立即购买
+                  </taro-button-core>
+                </taro-view-core>
+              </taro-view-core>
+            </taro-view-core>
+          </taro-scroll-view-core>
+        </taro-view-core>
+      </taro-view-core>
+    </taro-view-core>
+  </taro-view-core>
+</div>
+`;
+
+exports[`Show basic 2`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      Object {
+        "ignoreError": true,
+        "url": "/api/products/1?include=detail",
+      },
+    ],
+    Array [
+      Object {
+        "url": "/api/carts/count",
+      },
+    ],
+    Array [
+      Object {
+        "url": "/api/products/1/shipping-tpl?filterRulesByCity=1",
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+    Object {
+      "type": "return",
+      "value": Promise {
+        "reject": [Function],
+        "resolve": [Function],
+      },
+    },
+  ],
+}
+`;

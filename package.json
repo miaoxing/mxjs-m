@@ -15,7 +15,20 @@
     "../packages/taro-plugin-miaoxing",
     "../packages/miaoxing-dev",
     "../packages/mxjs-test",
-    "../packages/jest-preset-miaoxing"
+    "../packages/jest-preset-miaoxing",
+    "../packages/mxjs-m-ret",
+    "../packages/mxjs-m-rich-text",
+    "../packages/mxjs-m-page",
+    "../packages/mxjs-m-card",
+    "../packages/mxjs-m-button",
+    "../packages/mxjs-m-footer-bar",
+    "../packages/mxjs-m-list",
+    "../packages/mxjs-m-divider",
+    "../packages/mxjs-m-icon",
+    "../packages/mxjs-m-stepper",
+    "../packages/mxjs-m-empty",
+    "../packages/mxjs-m-swipe-action",
+    "../packages/mxjs-m-checkbox"
   ],
   "engines": {
     "node": ">=12.10.0"
@@ -94,7 +107,23 @@
     "jest-preset-miaoxing": "^0.3.1",
     "ts-jest": "^26.2.0",
     "@mxjs/test": "^2.0.5",
-    "@testing-library/react": "^11.2.6"
+    "@testing-library/react": "^11.2.6",
+    "taro-ui": "^3.0.0-alpha.10",
+    "@fower/taro": "~1.75.0",
+    "taro-test": "^1.0.12",
+    "@mxjs/m-divider": "^1.2.4",
+    "@mxjs/m-icon": "^1.2.4",
+    "@mxjs/m-rich-text": "^1.2.4",
+    "@mxjs/m-page": "^1.2.7",
+    "@mxjs/m-card": "^1.2.4",
+    "@mxjs/m-button": "^1.2.4",
+    "@mxjs/m-footer-bar": "^1.2.7",
+    "@mxjs/m-list": "^1.2.4",
+    "@mxjs/m-ret": "^1.1.7",
+    "@mxjs/m-stepper": "^1.2.4",
+    "@mxjs/m-empty": "^1.2.4",
+    "@mxjs/m-checkbox": "^1.2.4",
+    "@mxjs/m-swipe-action": "^1.2.0"
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
@@ -103,6 +132,20 @@
     "@mxjs/taro": "miaoxing/mxjs-taro",
     "@mxjs/app": "miaoxing/mxjs-app",
     "@mxjs/test": "miaoxing/mxjs-test",
-    "miaoxing": "miaoxing/miaoxing-js"
+    "miaoxing": "miaoxing/miaoxing-js",
+    "@mxjs/m-divider": "miaoxing/mxjs-m-divider",
+    "@mxjs/m-icon": "miaoxing/mxjs-m-icon",
+    "@mxjs/m-rich-text": "miaoxing/mxjs-m-rich-text",
+    "@mxjs/m-page": "miaoxing/mxjs-m-page",
+    "@mxjs/m-card": "miaoxing/mxjs-m-card",
+    "@mxjs/m-button": "miaoxing/mxjs-m-button",
+    "@mxjs/m-footer-bar": "miaoxing/mxjs-m-footer-bar",
+    "@mxjs/m-list": "miaoxing/mxjs-m-list",
+    "@mxjs/m-ret": "miaoxing/mxjs-m-ret",
+    "@mxjs/m-stepper": "miaoxing/mxjs-m-stepper",
+    "@mxjs/m-empty": "miaoxing/mxjs-m-empty",
+    "@mxjs/m-swipe-action": "miaoxing/mxjs-m-swipe-action",
+    "@mxjs/m-checkbox": "miaoxing/mxjs-m-checkbox",
+    "taro-test": "miaoxing/taro-test"
   }
 }
