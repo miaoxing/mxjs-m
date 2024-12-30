@@ -1,5 +1,4 @@
 import path from 'path';
-import fs from 'fs';
 
 // NOTE: dev 模式下，router.mode 为 browser 时，只能用回 index.html
 const index = 'm.html';
@@ -17,9 +16,6 @@ const config = {
   outputRoot: 'dist',
   plugins: [
     '@tarojs/plugin-html',
-    // TODO 使用包名引入 ts 源码提示 index.ts:1 Cannot use import statement outside a module
-    //'taro-plugin-miaoxing',
-    fs.realpathSync('../packages/taro-plugin-miaoxing/index.ts'),
   ],
   defineConstants: {
     'process.env.BASE_API_URL': JSON.stringify(process.env.BASE_API_URL),

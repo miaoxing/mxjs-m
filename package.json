@@ -12,7 +12,6 @@
     "../packages/mxjs-axios",
     "../packages/mxjs-border",
     "../packages/mxjs-taro",
-    "../packages/taro-plugin-miaoxing",
     "../packages/miaoxing-dev",
     "../packages/mxjs-test",
     "../packages/jest-preset-miaoxing",
@@ -84,8 +83,7 @@
     "fower-preset-miaoxing": "^0.2.19",
     "miaoxing": "^0.4.19",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0",
-    "taro-plugin-miaoxing": "^0.1.18"
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
