@@ -1,3 +1,33 @@
+## [0.5.1](https://github.com/miaoxing/mxjs-m/compare/v0.5.0...v0.5.1) (2024-12-31)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/taro:** upgrade from `1.0.19` to `1.0.20`
+* **@mxjs/app:** upgrade from `0.8.5` to `0.8.6`
+* **fower-preset-miaoxing:** upgrade from `0.2.20` to `0.2.21`
+* **miaoxing:** upgrade from `0.4.20` to `0.4.21`
+* **@miaoxing/dev:** upgrade from `9.3.0` to `9.3.1`
+* **@mxjs/test:** upgrade from `2.0.6` to `2.0.7`
+* **taro-test:** upgrade from `1.0.13` to `1.0.14`
+* **@mxjs/money:** upgrade from `1.1.5` to `1.1.6`
+* **@mxjs/m-divider:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-icon:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-rich-text:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-page:** upgrade from `1.2.8` to `1.2.9`
+* **@mxjs/m-card:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-button:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-footer-bar:** upgrade from `1.2.8` to `1.2.9`
+* **@mxjs/m-list:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-ret:** upgrade from `1.1.8` to `1.1.9`
+* **@mxjs/m-stepper:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-empty:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-checkbox:** upgrade from `1.2.5` to `1.2.6`
+* **@mxjs/m-swipe-action:** upgrade from `1.2.5` to `1.2.6`
+
 # [0.5.0](https://github.com/miaoxing/mxjs-m/compare/v0.4.6...v0.5.0) (2024-12-30)
 
 
