@@ -28,7 +28,8 @@
     "../packages/mxjs-m-empty",
     "../packages/mxjs-m-swipe-action",
     "../packages/mxjs-m-checkbox",
-    "../packages/mxjs-money"
+    "../packages/mxjs-money",
+    "../packages/taro-test"
   ],
   "engines": {
     "node": ">=12.10.0"
