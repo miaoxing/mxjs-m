@@ -1922,10 +1922,10 @@
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-"@mxjs/theme@^1.1.4":
-  version "1.1.4"
-  resolved "https://registry.npmmirror.com/@mxjs/theme/-/theme-1.1.4.tgz#859928c644063c74cafc1874abf89f4a2c84b2de"
-  integrity sha512-5FjwOqWPPp3HZM9dFE5LhmKudRfdxXspL+OxsMc1/TbfvZDwNDm0YNJ9Ot5ZUwHb78pJddUpQbd4b1qSjFvCJw==
+"@mxjs/theme@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.npmmirror.com/@mxjs/theme/-/theme-1.1.6.tgz#5bd69e7878891b897dcd9262157be467bb8a494d"
+  integrity sha512-CUnILD/Qqd96CNZTxnUCmkZy4ZRGgzfHqYmI7C2UM60O62o42qClRrcRhlGsjv8+6oiRyQFUtF8WV5rDltYBEQ==
   dependencies:
     "@emotion/react" "^11.1.5"
 
@@ -12836,15 +12836,6 @@ taro-css-to-react-native@3.3.20:
     css-color-keywords "^1.0.0"
     css-mediaquery "^0.1.2"
     postcss-value-parser "^3.3.0"
-
-taro-test@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.npmmirror.com/taro-test/-/taro-test-1.0.12.tgz#f829f42eb2115e0e8bf73949cae1d2868dee8796"
-  integrity sha512-XmWcesg8wnpZWLr5IeYKaLut+9JHn4+oJIulOtQhhosFYZeyPrO9Q46BP3ueU1u+KU+nxQzLcUGxw3KmA5drpw==
-  dependencies:
-    "@tarojs/router" "~3.3.17"
-    "@tarojs/runtime" "~3.3.17"
-    prop-types "^15.7.2"
 
 taro-ui@^3.0.0-alpha.10:
   version "3.3.0"
