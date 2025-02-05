@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "private": true,
   "description": "",
   "workspaces": [
@@ -124,7 +124,7 @@
     "@mxjs/m-stepper": "^1.2.6",
     "@mxjs/m-empty": "^1.2.6",
     "@mxjs/m-checkbox": "^1.2.6",
-    "@mxjs/m-swipe-action": "^1.2.6"
+    "@mxjs/m-swipe-action": "^1.2.7"
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
