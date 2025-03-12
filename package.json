@@ -73,7 +73,7 @@
     }
   },
   "dependencies": {
-    "@babel/runtime": "^7.7.7",
+    "@babel/runtime": "^7.26.10",
     "@fower/taro": "~1.75.0",
     "@mxjs/taro": "^1.0.20",
     "@mxjs/app": "^0.8.6",
